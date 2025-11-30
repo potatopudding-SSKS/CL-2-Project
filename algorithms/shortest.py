@@ -134,7 +134,7 @@ def build_extended_lesk(normalize, include_relatives=True):
 
 
 def build_shortest_path_similarity(lesk=None):
-    def max_pair(synsets1, synsets2):
+    def max_pair(synsets1, synsets2, strategy_label="no-context"):
         best = (0.0, None, None, None)
         for syn1 in synsets1:
             for syn2 in synsets2:
@@ -146,22 +146,44 @@ def build_shortest_path_similarity(lesk=None):
                 score = 1.0 / (distance + 1)
                 if score > best[0]:
                     best = (score, distance, syn1, syn2)
-        return make_similarity(best[0], best[1], best[2], best[3], "no-context")
+        return make_similarity(best[0], best[1], best[2], best[3], strategy_label)
 
-    def context_pair(word1, word2, pos, context1, context2):
+    def context_pair(word1, word2, pos, context1, context2, synsets1, synsets2):
         if not lesk:
-            return make_similarity(0.0, None, None, None, "with-context")
+            return max_pair(synsets1, synsets2, "with-context")
 
-        syn1 = lesk(word1, context1, pos)
-        syn2 = lesk(word2, context2, pos)
-        if not is_valid_synset_pair(syn1, syn2):
-            return make_similarity(0.0, None, syn1, syn2, "with-context")
+        def has_context(text):
+            return bool(text and text.strip())
 
-        distance = syn1.shortest_path_distance(syn2)
-        if distance is None:
-            return make_similarity(0.0, None, syn1, syn2, "with-context")
+        def prioritize_synset(synsets, target):
+            if not target or target not in synsets:
+                return synsets
+            return [target, *[syn for syn in synsets if syn != target]]
 
-        return make_similarity(1.0 / (distance + 1), distance, syn1, syn2, "with-context")
+        preferred_syn1 = None
+        preferred_syn2 = None
+        candidates1 = synsets1
+        candidates2 = synsets2
+
+        if has_context(context1):
+            candidate = lesk(word1, context1, pos)
+            if candidate and candidate in synsets1:
+                preferred_syn1 = candidate
+                candidates1 = prioritize_synset(synsets1, candidate)
+
+        if has_context(context2):
+            candidate = lesk(word2, context2, pos)
+            if candidate and candidate in synsets2:
+                preferred_syn2 = candidate
+                candidates2 = prioritize_synset(synsets2, candidate)
+
+        result = max_pair(candidates1, candidates2, "with-context")
+        used_hint = bool(preferred_syn1 or preferred_syn2)
+        result["used_context"] = used_hint
+        if used_hint and ((preferred_syn1 and result["synset1"] != preferred_syn1)
+                          or (preferred_syn2 and result["synset2"] != preferred_syn2)):
+            result["fallback"] = True
+        return result
 
     def similarity(word1, word2, pos=None,
                    strategy="no-context",
@@ -174,7 +196,7 @@ def build_shortest_path_similarity(lesk=None):
             return make_similarity(0.0, None, None, None, strategy)
 
         if strategy == "with-context":
-            return context_pair(word1, word2, pos, context1, context2)
+            return context_pair(word1, word2, pos, context1, context2, synsets1, synsets2)
 
         return max_pair(synsets1, synsets2)
 
@@ -304,10 +326,11 @@ def compute_series(records, similarity, pos, strategy):
     details = []
 
     for record in records:
+        record_pos = pos if pos is not None else record.get("pos")
         result = similarity(
             record["word1"],
             record["word2"],
-            pos=pos,
+            pos=record_pos,
             strategy=strategy,
             context1=record["context1"],
             context2=record["context2"],
