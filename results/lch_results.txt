@@ -1,0 +1,186 @@
+======================================================================
+             Leacock-Chodorow (LCH) Similarity Evaluation             
+======================================================================
+
+ALGORITHM OVERVIEW:
+The LCH similarity measure uses the shortest path length between two synsets
+and the maximum depth of the taxonomy to compute semantic similarity.
+
+Formula: LCH(c1, c2) = -log(shortest_path(c1, c2) / (2 * max_depth))
+
+LIMITATIONS:
+- Only works for nouns and verbs (hierarchical taxonomies)
+- Adjectives and adverbs are not supported
+- Requires connected path in WordNet taxonomy
+
+======================================================================
+                     WordNet Taxonomy Information                     
+======================================================================
+(hierarchical organization of word meanings (synsets) in the WordNet lexical database)
+
+Maximum Taxonomy Depths:
+   Nouns: 19
+   Verbs: 12
+
+======================================================================
+                          DATASET: SimLex-999                         
+======================================================================
+
+Total word pairs: 999
+
+Unsupported POS: 111 adjective pairs (LCH only works for nouns/verbs)
+   Examples: (old, new), (smart, intelligent), (hard, difficult)
+
+----------------------------------------------------------------------
+                      Overall Results (All POS)                       
+----------------------------------------------------------------------
+
+Coverage: 81.08% (810/999 pairs)
+
+Correlation Metrics:
+   Spearman's ρ:  0.5822 (p-value: 1.1250e-74) ***
+   Pearson's r:   0.5821 (p-value: 1.2487e-74) ***
+
+Prediction Statistics:
+   Mean: 2.4734  |  Std: 0.7226  |  Min: 0.7472  |  Max: 3.6376
+
+Gold Score Statistics:
+   Mean: 4.6243  |  Std: 2.4908  |  Min: 0.2300  |  Max: 9.8000
+
+Failed pairs (no valid synsets/path): 78
+   Examples: (leave, enter), (encourage, discourage), (borrow, beg)
+
+======================================================================
+                     Example Predictions (Top 15)                     
+======================================================================
+Word 1          Word 2          POS   Gold     Predicted  Diff    
+----------------------------------------------------------------------
+wife            husband         N     2.30     2.9444     0.6444  
+book            text            N     6.35     3.6376     2.7124  
+groom           bride           N     3.17     2.9444     0.2256  
+night           day             N     1.88     2.9444     1.0644  
+south           north           N     2.20     2.9444     0.7444  
+plane           airport         N     3.65     1.5581     2.0919  
+uncle           aunt            N     5.50     2.2513     3.2487  
+horse           mare            N     8.33     3.6376     4.6924  
+bottom          top             N     0.70     2.9444     2.2444  
+friend          buddy           N     8.78     3.6376     5.1424  
+student         pupil           N     9.35     3.6376     5.7124  
+world           globe           N     6.67     3.6376     3.0324  
+leg             arm             N     2.88     2.9444     0.0644  
+plane           jet             N     8.10     3.6376     4.4624  
+woman           man             N     3.33     2.9444     0.3856  
+
+----------------------------------------------------------------------
+                       Results by POS: Nouns                          
+----------------------------------------------------------------------
+
+Coverage: 100.00% (666/666 pairs)
+
+Correlation Metrics:
+   Spearman's ρ:  0.5802 (p-value: 3.4683e-61) ***
+   Pearson's r:   0.5918 (p-value: 3.5049e-64) ***
+
+Prediction Statistics:
+   Mean: 2.4670  |  Std: 0.7360  |  Min: 0.7472  |  Max: 3.6376
+
+Gold Score Statistics:
+   Mean: 4.4887  |  Std: 2.4389  |  Min: 0.3000  |  Max: 9.6200
+
+----------------------------------------------------------------------
+                       Results by POS: Verbs                          
+----------------------------------------------------------------------
+
+Coverage: 64.86% (144/222 pairs)
+
+Correlation Metrics:
+   Spearman's ρ:  0.5830 (p-value: 1.7750e-14) ***
+   Pearson's r:   0.5546 (p-value: 5.4760e-13) ***
+
+Prediction Statistics:
+   Mean: 2.5033  |  Std: 0.6564  |  Min: 1.0986  |  Max: 3.1781
+
+Gold Score Statistics:
+   Mean: 5.2517  |  Std: 2.6284  |  Min: 0.2300  |  Max: 9.8000
+
+Failed pairs (no valid synsets/path): 78
+   Examples: (leave, enter), (encourage, discourage), (borrow, beg)
+
+
+======================================================================
+                         DATASET: WordSim-353                         
+======================================================================
+
+Total word pairs: 353
+Note: WordSim-353 doesn't have POS tags; evaluating all pairs as potential nouns/verbs
+
+Coverage: 99.43% (351/353 pairs)
+
+Correlation Metrics:
+   Spearman's ρ:  0.4124 (p-value: 7.6072e-16) ***
+   Pearson's r:   0.5125 (p-value: 6.6779e-25) ***
+
+Prediction Statistics:
+   Mean: 2.0609  |  Std: 0.7529  |  Min: 0.5021  |  Max: 3.6376
+
+Gold Score Statistics:
+   Mean: 3.9892  |  Std: 2.0337  |  Min: 0.3125  |  Max: 10.0000
+
+Failed pairs (no valid synsets/path): 2
+   Examples: (investor, earning), (Maradona, football)
+
+======================================================================
+                     Example Predictions (Top 15)                     
+======================================================================
+Word 1          Word 2          POS   Gold     Predicted  Diff    
+----------------------------------------------------------------------
+admission       ticket          None  5.54     1.8458     3.6902  
+alcohol         chemistry       None  4.12     2.2513     1.8737  
+aluminum        metal           None  6.62     3.6376     2.9874  
+announcement    effort          None  2.06     1.4404     0.6221  
+announcement    news            None  7.19     2.2513     4.9362  
+announcement    production      None  1.69     1.8458     0.1583  
+announcement    warning         None  4.62     2.0281     2.5969  
+Arafat          Jackson         None  1.00     2.5390     1.5390  
+Arafat          peace           None  2.12     1.1527     0.9723  
+Arafat          terror          None  3.06     2.0281     1.0344  
+architecture    century         None  1.93     1.4404     0.4886  
+arrangement     accommodation   None  5.12     1.8458     3.2792  
+arrival         hotel           None  2.19     1.4404     0.7471  
+asylum          madhouse        None  8.06     3.6376     4.4249  
+atmosphere      landscape       None  3.56     1.5581     2.0044  
+
+
+======================================================================
+                          SUMMARY COMPARISON                          
+======================================================================
+
+Dataset              Pairs      Coverage     Spearman ρ      Pearson r      
+----------------------------------------------------------------------
+SimLex-999           999        81.1%        0.5822          0.5821         
+WordSim-353          353        99.4%        0.4124          0.5125         
+
+SimLex POS           Pairs      Coverage     Spearman ρ      Pearson r      
+----------------------------------------------------------------------
+  Nouns              666        100.0%       0.5802          0.5918         
+  Verbs              222        64.9%        0.5830          0.5546         
+
+======================================================================
+                              KEY FINDINGS                             
+======================================================================
+
+Strong correlations (ρ ≈ 0.58) on SimLex-999, especially for nouns
+Perfect coverage (100%) for noun pairs  
+Lower verb coverage (64.9%) due to disconnected verb hierarchies
+Better performance on similarity (SimLex) than relatedness (WordSim)
+All correlations highly significant (p < 0.001)
+
+LIMITATIONS OBSERVED:
+- Cannot handle adjectives (111 pairs excluded from SimLex-999)
+- Many verb pairs lack connected paths in WordNet taxonomy
+- Predictions tend to underestimate high similarity scores
+
+======================================================================
+                         Evaluation Complete!                         
+======================================================================
+
