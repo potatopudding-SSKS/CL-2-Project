@@ -1,0 +1,1000 @@
+word1	word2	pos	context1	context2	similarity
+old	new	A	The situation was very old.	It seemed quite new to me.	0.158
+smart	intelligent	A	The view was smart.	The experience was intelligent.	0.9199999999999999
+hard	difficult	A	The view was hard.	The situation was very difficult.	0.877
+happy	cheerful	A	It seemed quite happy to me.	The experience was cheerful.	0.9550000000000001
+hard	easy	A	It seemed quite hard to me.	The view was easy.	0.095
+fast	rapid	A	Everything felt fast today.	The situation was very rapid.	0.875
+happy	glad	A	The situation was very happy.	The experience was glad.	0.917
+short	long	A	Everything felt short today.	It seemed quite long to me.	0.123
+stupid	dumb	A	The view was stupid.	It seemed quite dumb to me.	0.958
+weird	strange	A	The experience was weird.	The view was strange.	0.893
+wide	narrow	A	The situation was very wide.	It seemed quite narrow to me.	0.10300000000000001
+bad	awful	A	The view was bad.	The view was awful.	0.842
+easy	difficult	A	The view was easy.	Everything felt difficult today.	0.057999999999999996
+bad	terrible	A	It seemed quite bad to me.	Everything felt terrible today.	0.778
+hard	simple	A	Everything felt hard today.	The view was simple.	0.13799999999999998
+smart	dumb	A	It seemed quite smart to me.	The experience was dumb.	0.05500000000000001
+insane	crazy	A	The view was insane.	It seemed quite crazy to me.	0.9570000000000001
+happy	mad	A	The situation was very happy.	It seemed quite mad to me.	0.095
+large	huge	A	It seemed quite large to me.	The experience was huge.	0.9470000000000001
+hard	tough	A	The view was hard.	It seemed quite tough to me.	0.805
+new	fresh	A	Everything felt new today.	The view was fresh.	0.683
+sharp	dull	A	Everything felt sharp today.	It seemed quite dull to me.	0.06
+quick	rapid	A	The view was quick.	The view was rapid.	0.97
+dumb	foolish	A	It seemed quite dumb to me.	It seemed quite foolish to me.	0.667
+wonderful	terrific	A	The situation was very wonderful.	It seemed quite terrific to me.	0.8630000000000001
+strange	odd	A	The view was strange.	The view was odd.	0.9019999999999999
+happy	angry	A	The experience was happy.	The view was angry.	0.128
+narrow	broad	A	The view was narrow.	Everything felt broad today.	0.118
+simple	easy	A	The situation was very simple.	The experience was easy.	0.9400000000000001
+old	fresh	A	It seemed quite old to me.	It seemed quite fresh to me.	0.087
+apparent	obvious	A	The view was apparent.	Everything felt obvious today.	0.8470000000000001
+inexpensive	cheap	A	Everything felt inexpensive today.	It seemed quite cheap to me.	0.8720000000000001
+nice	generous	A	It seemed quite nice to me.	The experience was generous.	0.5
+weird	normal	A	It seemed quite weird to me.	The view was normal.	0.072
+weird	odd	A	The view was weird.	The view was odd.	0.9199999999999999
+bad	immoral	A	The view was bad.	It seemed quite immoral to me.	0.762
+sad	funny	A	The situation was very sad.	The situation was very funny.	0.095
+wonderful	great	A	It seemed quite wonderful to me.	The view was great.	0.805
+guilty	ashamed	A	The experience was guilty.	The experience was ashamed.	0.638
+beautiful	wonderful	A	It seemed quite beautiful to me.	The situation was very wonderful.	0.65
+confident	sure	A	Everything felt confident today.	It seemed quite sure to me.	0.827
+dumb	dense	A	The situation was very dumb.	The experience was dense.	0.727
+large	big	A	The situation was very large.	The view was big.	0.9550000000000001
+nice	cruel	A	It seemed quite nice to me.	It seemed quite cruel to me.	0.067
+impatient	anxious	A	The situation was very impatient.	Everything felt anxious today.	0.603
+big	broad	A	Everything felt big today.	The experience was broad.	0.673
+strong	proud	A	Everything felt strong today.	Everything felt proud today.	0.317
+unnecessary	necessary	A	Everything felt unnecessary today.	The view was necessary.	0.063
+restless	young	A	Everything felt restless today.	The view was young.	0.16
+dumb	intelligent	A	Everything felt dumb today.	The situation was very intelligent.	0.075
+bad	great	A	It seemed quite bad to me.	It seemed quite great to me.	0.034999999999999996
+difficult	simple	A	Everything felt difficult today.	The experience was simple.	0.087
+necessary	important	A	Everything felt necessary today.	The experience was important.	0.737
+bad	terrific	A	Everything felt bad today.	The view was terrific.	0.065
+mad	glad	A	The view was mad.	The experience was glad.	0.145
+honest	guilty	A	The experience was honest.	The view was guilty.	0.118
+easy	tough	A	The view was easy.	The situation was very tough.	0.052000000000000005
+easy	flexible	A	It seemed quite easy to me.	The experience was flexible.	0.41
+certain	sure	A	The experience was certain.	The view was sure.	0.842
+essential	necessary	A	It seemed quite essential to me.	The experience was necessary.	0.897
+different	normal	A	Everything felt different today.	The situation was very normal.	0.10800000000000001
+sly	clever	A	Everything felt sly today.	The situation was very clever.	0.725
+crucial	important	A	Everything felt crucial today.	The view was important.	0.882
+harsh	cruel	A	The experience was harsh.	It seemed quite cruel to me.	0.818
+childish	foolish	A	The view was childish.	It seemed quite foolish to me.	0.55
+scarce	rare	A	The situation was very scarce.	Everything felt rare today.	0.917
+friendly	generous	A	The situation was very friendly.	The view was generous.	0.5900000000000001
+fragile	frigid	A	The experience was fragile.	The experience was frigid.	0.238
+long	narrow	A	The situation was very long.	The experience was narrow.	0.357
+big	heavy	A	The experience was big.	The experience was heavy.	0.618
+rough	frigid	A	The view was rough.	Everything felt frigid today.	0.24700000000000003
+bizarre	strange	A	The view was bizarre.	The situation was very strange.	0.9369999999999999
+illegal	immoral	A	Everything felt illegal today.	The view was immoral.	0.42800000000000005
+bad	guilty	A	The experience was bad.	Everything felt guilty today.	0.42000000000000004
+modern	ancient	A	The situation was very modern.	The experience was ancient.	0.073
+new	ancient	A	The experience was new.	Everything felt ancient today.	0.023
+dull	funny	A	Everything felt dull today.	It seemed quite funny to me.	0.05500000000000001
+happy	young	A	Everything felt happy today.	It seemed quite young to me.	0.2
+easy	big	A	Everything felt easy today.	The experience was big.	0.11200000000000002
+great	awful	A	It seemed quite great to me.	The situation was very awful.	0.11699999999999999
+tiny	huge	A	It seemed quite tiny to me.	The view was huge.	0.06
+polite	proper	A	Everything felt polite today.	It seemed quite proper to me.	0.763
+modest	ashamed	A	Everything felt modest today.	It seemed quite ashamed to me.	0.265
+exotic	rare	A	The experience was exotic.	The view was rare.	0.805
+dumb	clever	A	The experience was dumb.	Everything felt clever today.	0.11699999999999999
+delightful	wonderful	A	Everything felt delightful today.	Everything felt wonderful today.	0.865
+noticeable	obvious	A	The view was noticeable.	It seemed quite obvious to me.	0.8480000000000001
+afraid	anxious	A	The experience was afraid.	Everything felt anxious today.	0.507
+formal	proper	A	Everything felt formal today.	The experience was proper.	0.8019999999999999
+dreary	dull	A	The view was dreary.	Everything felt dull today.	0.825
+delightful	cheerful	A	The view was delightful.	The experience was cheerful.	0.658
+unhappy	mad	A	Everything felt unhappy today.	The situation was very mad.	0.595
+sad	terrible	A	It seemed quite sad to me.	The experience was terrible.	0.54
+sick	crazy	A	Everything felt sick today.	The situation was very crazy.	0.357
+violent	angry	A	Everything felt violent today.	The situation was very angry.	0.6980000000000001
+laden	heavy	A	The experience was laden.	The experience was heavy.	0.5900000000000001
+dirty	cheap	A	The situation was very dirty.	The experience was cheap.	0.16
+elastic	flexible	A	The experience was elastic.	The situation was very flexible.	0.778
+hard	dense	A	The situation was very hard.	The situation was very dense.	0.5900000000000001
+recent	new	A	Everything felt recent today.	Everything felt new today.	0.705
+bold	proud	A	It seemed quite bold to me.	The situation was very proud.	0.397
+sly	strange	A	The view was sly.	It seemed quite strange to me.	0.197
+strange	sly	A	The experience was strange.	The situation was very sly.	0.207
+dumb	rare	A	The situation was very dumb.	It seemed quite rare to me.	0.048
+sly	tough	A	The experience was sly.	Everything felt tough today.	0.057999999999999996
+terrific	mad	A	It seemed quite terrific to me.	Everything felt mad today.	0.04
+modest	flexible	A	The situation was very modest.	The view was flexible.	0.098
+fresh	wide	A	Everything felt fresh today.	The view was wide.	0.04
+huge	dumb	A	The situation was very huge.	The situation was very dumb.	0.048
+large	flexible	A	The view was large.	Everything felt flexible today.	0.048
+dirty	narrow	A	Everything felt dirty today.	The view was narrow.	0.03
+wife	husband	N	People often talk about the wife.	The husband is commonly found in nature.	0.22999999999999998
+book	text	N	I saw a book yesterday at the park.	The text was very interesting to observe.	0.635
+groom	bride	N	The groom is commonly found in nature.	The bride was very interesting to observe.	0.317
+night	day	N	The night appeared suddenly.	The day was very interesting to observe.	0.188
+south	north	N	The south appeared suddenly.	The north appeared suddenly.	0.22000000000000003
+plane	airport	N	People often talk about the plane.	I saw a airport yesterday at the park.	0.365
+uncle	aunt	N	The uncle is commonly found in nature.	The aunt appeared suddenly.	0.55
+horse	mare	N	The horse was very interesting to observe.	People often talk about the mare.	0.833
+bottom	top	N	The bottom appeared suddenly.	The top was very interesting to observe.	0.06999999999999999
+friend	buddy	N	The friend is commonly found in nature.	The buddy was very interesting to observe.	0.8779999999999999
+student	pupil	N	The student appeared suddenly.	The pupil was very interesting to observe.	0.9349999999999999
+world	globe	N	People often talk about the world.	The globe appeared suddenly.	0.667
+leg	arm	N	I saw a leg yesterday at the park.	People often talk about the arm.	0.288
+plane	jet	N	The plane is commonly found in nature.	The jet appeared suddenly.	0.8099999999999999
+woman	man	N	The woman appeared suddenly.	I saw a man yesterday at the park.	0.333
+horse	colt	N	The horse appeared suddenly.	The colt was very interesting to observe.	0.7070000000000001
+actress	actor	N	The actress is commonly found in nature.	The actor is commonly found in nature.	0.712
+teacher	instructor	N	The teacher appeared suddenly.	The instructor was very interesting to observe.	0.925
+movie	film	N	The movie is commonly found in nature.	The film appeared suddenly.	0.8869999999999999
+bird	hawk	N	The bird is commonly found in nature.	The hawk was very interesting to observe.	0.7849999999999999
+word	dictionary	N	People often talk about the word.	I saw a dictionary yesterday at the park.	0.368
+money	salary	N	The money was very interesting to observe.	People often talk about the salary.	0.788
+dog	cat	N	The dog appeared suddenly.	I saw a cat yesterday at the park.	0.175
+area	region	N	The area appeared suddenly.	The region appeared suddenly.	0.9470000000000001
+navy	army	N	People often talk about the navy.	The army was very interesting to observe.	0.643
+book	literature	N	The book was very interesting to observe.	The literature was very interesting to observe.	0.753
+clothes	closet	N	People often talk about the clothes.	The closet appeared suddenly.	0.327
+sunset	sunrise	N	The sunset was very interesting to observe.	The sunrise was very interesting to observe.	0.24700000000000003
+child	adult	N	People often talk about the child.	The adult appeared suddenly.	0.298
+cow	cattle	N	People often talk about the cow.	People often talk about the cattle.	0.952
+book	story	N	I saw a book yesterday at the park.	I saw a story yesterday at the park.	0.563
+winter	summer	N	The winter was very interesting to observe.	People often talk about the summer.	0.238
+taxi	cab	N	People often talk about the taxi.	The cab is commonly found in nature.	0.9199999999999999
+tree	maple	N	People often talk about the tree.	People often talk about the maple.	0.553
+bed	bedroom	N	The bed was very interesting to observe.	I saw a bedroom yesterday at the park.	0.33999999999999997
+roof	ceiling	N	People often talk about the roof.	I saw a ceiling yesterday at the park.	0.758
+disease	infection	N	The disease was very interesting to observe.	People often talk about the infection.	0.7150000000000001
+arm	shoulder	N	I saw a arm yesterday at the park.	The shoulder appeared suddenly.	0.485
+sheep	lamb	N	I saw a sheep yesterday at the park.	People often talk about the lamb.	0.842
+lady	gentleman	N	I saw a lady yesterday at the park.	The gentleman was very interesting to observe.	0.34199999999999997
+boat	anchor	N	I saw a boat yesterday at the park.	The anchor was very interesting to observe.	0.225
+priest	monk	N	The priest was very interesting to observe.	The monk appeared suddenly.	0.628
+toe	finger	N	The toe is commonly found in nature.	People often talk about the finger.	0.46799999999999997
+river	stream	N	I saw a river yesterday at the park.	The stream was very interesting to observe.	0.73
+anger	fury	N	The anger is commonly found in nature.	The fury appeared suddenly.	0.873
+date	calendar	N	The date appeared suddenly.	The calendar is commonly found in nature.	0.442
+sea	ocean	N	The sea is commonly found in nature.	The ocean was very interesting to observe.	0.827
+second	minute	N	The second is commonly found in nature.	The minute was very interesting to observe.	0.462
+hand	thumb	N	The hand appeared suddenly.	People often talk about the thumb.	0.388
+wood	log	N	The wood appeared suddenly.	The log appeared suddenly.	0.73
+mud	dirt	N	The mud was very interesting to observe.	The dirt was very interesting to observe.	0.732
+hallway	corridor	N	I saw a hallway yesterday at the park.	I saw a corridor yesterday at the park.	0.9279999999999999
+way	manner	N	I saw a way yesterday at the park.	The manner is commonly found in nature.	0.762
+mouse	cat	N	People often talk about the mouse.	The cat was very interesting to observe.	0.11200000000000002
+cop	sheriff	N	I saw a cop yesterday at the park.	The sheriff is commonly found in nature.	0.905
+death	burial	N	People often talk about the death.	I saw a burial yesterday at the park.	0.493
+music	melody	N	The music was very interesting to observe.	People often talk about the melody.	0.6980000000000001
+beer	alcohol	N	The beer was very interesting to observe.	I saw a alcohol yesterday at the park.	0.75
+mouth	lip	N	I saw a mouth yesterday at the park.	People often talk about the lip.	0.71
+storm	hurricane	N	I saw a storm yesterday at the park.	The hurricane appeared suddenly.	0.638
+tax	income	N	The tax was very interesting to observe.	The income is commonly found in nature.	0.238
+flower	violet	N	The flower is commonly found in nature.	I saw a violet yesterday at the park.	0.6950000000000001
+paper	cardboard	N	The paper was very interesting to observe.	I saw a cardboard yesterday at the park.	0.538
+floor	ceiling	N	The floor appeared suddenly.	I saw a ceiling yesterday at the park.	0.173
+beach	seashore	N	The beach was very interesting to observe.	I saw a seashore yesterday at the park.	0.833
+rod	curtain	N	The rod was very interesting to observe.	People often talk about the curtain.	0.303
+hound	fox	N	The hound is commonly found in nature.	I saw a fox yesterday at the park.	0.238
+street	alley	N	The street appeared suddenly.	The alley appeared suddenly.	0.548
+boat	deck	N	The boat was very interesting to observe.	The deck was very interesting to observe.	0.42800000000000005
+car	horn	N	The car appeared suddenly.	I saw a horn yesterday at the park.	0.257
+friend	guest	N	I saw a friend yesterday at the park.	The guest is commonly found in nature.	0.425
+employer	employee	N	The employer is commonly found in nature.	The employee appeared suddenly.	0.365
+hand	wrist	N	I saw a hand yesterday at the park.	People often talk about the wrist.	0.397
+ball	cannon	N	The ball is commonly found in nature.	The cannon is commonly found in nature.	0.258
+alcohol	brandy	N	The alcohol is commonly found in nature.	The brandy was very interesting to observe.	0.6980000000000001
+victory	triumph	N	The victory was very interesting to observe.	I saw a triumph yesterday at the park.	0.898
+telephone	booth	N	The telephone was very interesting to observe.	I saw a booth yesterday at the park.	0.363
+door	doorway	N	I saw a door yesterday at the park.	I saw a doorway yesterday at the park.	0.54
+motel	inn	N	The motel was very interesting to observe.	The inn is commonly found in nature.	0.817
+clothes	cloth	N	The clothes was very interesting to observe.	The cloth appeared suddenly.	0.5469999999999999
+steak	meat	N	The steak is commonly found in nature.	People often talk about the meat.	0.747
+nail	thumb	N	The nail is commonly found in nature.	The thumb is commonly found in nature.	0.355
+band	orchestra	N	The band is commonly found in nature.	The orchestra appeared suddenly.	0.708
+book	bible	N	I saw a book yesterday at the park.	The bible was very interesting to observe.	0.5
+business	industry	N	The business is commonly found in nature.	I saw a industry yesterday at the park.	0.702
+winter	season	N	The winter appeared suddenly.	The season was very interesting to observe.	0.627
+decade	century	N	People often talk about the decade.	The century is commonly found in nature.	0.348
+alcohol	gin	N	The alcohol was very interesting to observe.	The gin is commonly found in nature.	0.865
+hat	coat	N	People often talk about the hat.	People often talk about the coat.	0.267
+window	door	N	The window is commonly found in nature.	The door is commonly found in nature.	0.333
+arm	wrist	N	The arm was very interesting to observe.	The wrist is commonly found in nature.	0.357
+house	apartment	N	The house appeared suddenly.	The apartment was very interesting to observe.	0.58
+glass	crystal	N	The glass was very interesting to observe.	I saw a crystal yesterday at the park.	0.627
+wine	brandy	N	I saw a wine yesterday at the park.	The brandy is commonly found in nature.	0.515
+creator	maker	N	The creator appeared suddenly.	The maker is commonly found in nature.	0.962
+dinner	breakfast	N	I saw a dinner yesterday at the park.	The breakfast appeared suddenly.	0.333
+arm	muscle	N	The arm was very interesting to observe.	The muscle appeared suddenly.	0.372
+bubble	suds	N	People often talk about the bubble.	The suds is commonly found in nature.	0.857
+bread	flour	N	The bread is commonly found in nature.	People often talk about the flour.	0.333
+death	tragedy	N	I saw a death yesterday at the park.	The tragedy was very interesting to observe.	0.58
+absence	presence	N	The absence is commonly found in nature.	People often talk about the presence.	0.04
+gun	cannon	N	The gun appeared suddenly.	I saw a cannon yesterday at the park.	0.568
+grass	blade	N	I saw a grass yesterday at the park.	The blade appeared suddenly.	0.457
+ball	basket	N	The ball is commonly found in nature.	People often talk about the basket.	0.16699999999999998
+hose	garden	N	The hose appeared suddenly.	The garden was very interesting to observe.	0.16699999999999998
+boy	kid	N	People often talk about the boy.	The kid is commonly found in nature.	0.75
+church	choir	N	The church was very interesting to observe.	People often talk about the choir.	0.29500000000000004
+clothes	drawer	N	The clothes appeared suddenly.	The drawer was very interesting to observe.	0.302
+tower	bell	N	The tower is commonly found in nature.	The bell is commonly found in nature.	0.19
+father	parent	N	The father is commonly found in nature.	The parent appeared suddenly.	0.7070000000000001
+school	grade	N	The school was very interesting to observe.	The grade is commonly found in nature.	0.442
+parent	adult	N	The parent was very interesting to observe.	The adult appeared suddenly.	0.537
+bar	jail	N	I saw a bar yesterday at the park.	I saw a jail yesterday at the park.	0.19
+car	highway	N	People often talk about the car.	People often talk about the highway.	0.33999999999999997
+dictionary	definition	N	The dictionary is commonly found in nature.	The definition was very interesting to observe.	0.625
+door	cellar	N	The door appeared suddenly.	The cellar appeared suddenly.	0.197
+army	legion	N	The army appeared suddenly.	People often talk about the legion.	0.595
+metal	aluminum	N	The metal is commonly found in nature.	I saw a aluminum yesterday at the park.	0.725
+chair	bench	N	The chair appeared suddenly.	I saw a bench yesterday at the park.	0.667
+cloud	fog	N	The cloud is commonly found in nature.	The fog was very interesting to observe.	0.6
+boy	son	N	The boy is commonly found in nature.	I saw a son yesterday at the park.	0.675
+water	ice	N	The water was very interesting to observe.	People often talk about the ice.	0.647
+bed	blanket	N	The bed was very interesting to observe.	The blanket was very interesting to observe.	0.302
+attorney	lawyer	N	The attorney appeared suddenly.	The lawyer appeared suddenly.	0.9349999999999999
+area	zone	N	The area is commonly found in nature.	People often talk about the zone.	0.833
+business	company	N	People often talk about the business.	The company appeared suddenly.	0.9019999999999999
+clothes	fabric	N	People often talk about the clothes.	I saw a fabric yesterday at the park.	0.587
+sweater	jacket	N	The sweater was very interesting to observe.	People often talk about the jacket.	0.7150000000000001
+money	capital	N	The money appeared suddenly.	The capital was very interesting to observe.	0.667
+hand	foot	N	The hand was very interesting to observe.	I saw a foot yesterday at the park.	0.417
+alcohol	cocktail	N	The alcohol was very interesting to observe.	The cocktail was very interesting to observe.	0.673
+yard	inch	N	The yard appeared suddenly.	The inch is commonly found in nature.	0.378
+molecule	atom	N	The molecule appeared suddenly.	The atom was very interesting to observe.	0.645
+lens	camera	N	The lens is commonly found in nature.	The camera appeared suddenly.	0.42800000000000005
+meal	dinner	N	People often talk about the meal.	I saw a dinner yesterday at the park.	0.7150000000000001
+eye	tear	N	I saw a eye yesterday at the park.	The tear is commonly found in nature.	0.355
+god	devil	N	The god appeared suddenly.	The devil is commonly found in nature.	0.18
+loop	belt	N	The loop appeared suddenly.	People often talk about the belt.	0.31
+rat	mouse	N	The rat was very interesting to observe.	The mouse was very interesting to observe.	0.778
+motor	engine	N	People often talk about the motor.	The engine was very interesting to observe.	0.865
+car	cab	N	People often talk about the car.	I saw a cab yesterday at the park.	0.742
+cat	lion	N	The cat appeared suddenly.	The lion appeared suddenly.	0.675
+size	magnitude	N	I saw a size yesterday at the park.	The magnitude appeared suddenly.	0.633
+reality	fantasy	N	The reality is commonly found in nature.	I saw a fantasy yesterday at the park.	0.10300000000000001
+door	gate	N	The door was very interesting to observe.	People often talk about the gate.	0.525
+cat	pet	N	I saw a cat yesterday at the park.	The pet is commonly found in nature.	0.595
+tin	aluminum	N	The tin was very interesting to observe.	People often talk about the aluminum.	0.642
+bone	jaw	N	The bone is commonly found in nature.	People often talk about the jaw.	0.417
+cereal	wheat	N	I saw a cereal yesterday at the park.	I saw a wheat yesterday at the park.	0.375
+house	key	N	The house was very interesting to observe.	People often talk about the key.	0.19
+blood	flesh	N	The blood is commonly found in nature.	The flesh was very interesting to observe.	0.42800000000000005
+door	corridor	N	The door is commonly found in nature.	I saw a corridor yesterday at the park.	0.373
+god	spirit	N	The god was very interesting to observe.	People often talk about the spirit.	0.73
+capability	competence	N	I saw a capability yesterday at the park.	The competence is commonly found in nature.	0.762
+abundance	plenty	N	People often talk about the abundance.	I saw a plenty yesterday at the park.	0.897
+sofa	chair	N	The sofa was very interesting to observe.	The chair is commonly found in nature.	0.667
+wall	brick	N	People often talk about the wall.	The brick appeared suddenly.	0.46799999999999997
+horn	drum	N	The horn is commonly found in nature.	The drum was very interesting to observe.	0.268
+organ	liver	N	People often talk about the organ.	I saw a liver yesterday at the park.	0.615
+strength	might	N	The strength was very interesting to observe.	The might was very interesting to observe.	0.7070000000000001
+phrase	word	N	The phrase appeared suddenly.	People often talk about the word.	0.548
+band	parade	N	I saw a band yesterday at the park.	People often talk about the parade.	0.392
+stomach	waist	N	The stomach was very interesting to observe.	I saw a waist yesterday at the park.	0.5900000000000001
+cloud	storm	N	The cloud is commonly found in nature.	The storm is commonly found in nature.	0.5599999999999999
+joy	pride	N	People often talk about the joy.	I saw a pride yesterday at the park.	0.5
+noise	rattle	N	The noise appeared suddenly.	The rattle appeared suddenly.	0.617
+rain	mist	N	The rain is commonly found in nature.	I saw a mist yesterday at the park.	0.597
+beer	beverage	N	The beer is commonly found in nature.	The beverage appeared suddenly.	0.542
+man	uncle	N	The man appeared suddenly.	The uncle was very interesting to observe.	0.392
+apple	juice	N	The apple was very interesting to observe.	The juice was very interesting to observe.	0.288
+intelligence	logic	N	The intelligence appeared suddenly.	The logic was very interesting to observe.	0.65
+communication	language	N	The communication is commonly found in nature.	The language was very interesting to observe.	0.747
+mink	fur	N	The mink appeared suddenly.	I saw a fur yesterday at the park.	0.683
+mob	crowd	N	The mob is commonly found in nature.	The crowd was very interesting to observe.	0.7849999999999999
+shore	coast	N	The shore was very interesting to observe.	The coast was very interesting to observe.	0.883
+wire	cord	N	People often talk about the wire.	The cord is commonly found in nature.	0.762
+bird	turkey	N	I saw a bird yesterday at the park.	People often talk about the turkey.	0.658
+bed	crib	N	People often talk about the bed.	People often talk about the crib.	0.73
+competence	ability	N	I saw a competence yesterday at the park.	I saw a ability yesterday at the park.	0.75
+cloud	haze	N	People often talk about the cloud.	The haze was very interesting to observe.	0.732
+supper	meal	N	The supper was very interesting to observe.	I saw a meal yesterday at the park.	0.753
+bar	cage	N	The bar appeared suddenly.	People often talk about the cage.	0.27999999999999997
+water	salt	N	I saw a water yesterday at the park.	The salt appeared suddenly.	0.13
+sense	intuition	N	People often talk about the sense.	The intuition was very interesting to observe.	0.768
+situation	condition	N	The situation was very interesting to observe.	The condition was very interesting to observe.	0.658
+crime	theft	N	The crime was very interesting to observe.	The theft is commonly found in nature.	0.753
+style	fashion	N	The style is commonly found in nature.	The fashion was very interesting to observe.	0.85
+boundary	border	N	People often talk about the boundary.	I saw a border yesterday at the park.	0.908
+arm	body	N	The arm was very interesting to observe.	People often talk about the body.	0.40499999999999997
+boat	car	N	People often talk about the boat.	The car was very interesting to observe.	0.23700000000000002
+sandwich	lunch	N	People often talk about the sandwich.	The lunch appeared suddenly.	0.63
+bride	princess	N	The bride appeared suddenly.	The princess is commonly found in nature.	0.27999999999999997
+heroine	hero	N	The heroine appeared suddenly.	The hero appeared suddenly.	0.8779999999999999
+car	gauge	N	I saw a car yesterday at the park.	People often talk about the gauge.	0.11299999999999999
+insect	bee	N	The insect appeared suddenly.	I saw a bee yesterday at the park.	0.607
+crib	cradle	N	The crib appeared suddenly.	The cradle is commonly found in nature.	0.8550000000000001
+animal	person	N	The animal was very interesting to observe.	The person appeared suddenly.	0.305
+marijuana	herb	N	The marijuana appeared suddenly.	The herb is commonly found in nature.	0.65
+bed	hospital	N	The bed is commonly found in nature.	The hospital was very interesting to observe.	0.092
+cheek	tongue	N	I saw a cheek yesterday at the park.	The tongue was very interesting to observe.	0.45199999999999996
+disc	computer	N	The disc appeared suddenly.	The computer appeared suddenly.	0.32
+curve	angle	N	I saw a curve yesterday at the park.	The angle was very interesting to observe.	0.333
+grass	moss	N	The grass appeared suddenly.	The moss appeared suddenly.	0.5
+school	law	N	People often talk about the school.	The law is commonly found in nature.	0.11299999999999999
+foot	head	N	The foot is commonly found in nature.	The head appeared suddenly.	0.22999999999999998
+mother	guardian	N	People often talk about the mother.	I saw a guardian yesterday at the park.	0.65
+orthodontist	dentist	N	I saw a orthodontist yesterday at the park.	The dentist appeared suddenly.	0.827
+alcohol	whiskey	N	I saw a alcohol yesterday at the park.	The whiskey was very interesting to observe.	0.727
+mouth	tooth	N	The mouth was very interesting to observe.	The tooth was very interesting to observe.	0.63
+breakfast	bacon	N	The breakfast was very interesting to observe.	People often talk about the bacon.	0.437
+bathroom	bedroom	N	The bathroom was very interesting to observe.	People often talk about the bedroom.	0.33999999999999997
+plate	bowl	N	People often talk about the plate.	People often talk about the bowl.	0.523
+meat	bacon	N	The meat was very interesting to observe.	The bacon appeared suddenly.	0.58
+air	helium	N	The air appeared suddenly.	The helium was very interesting to observe.	0.363
+worker	employer	N	The worker is commonly found in nature.	The employer appeared suddenly.	0.537
+body	chest	N	The body was very interesting to observe.	The chest appeared suddenly.	0.445
+son	father	N	I saw a son yesterday at the park.	The father is commonly found in nature.	0.382
+heart	surgery	N	The heart was very interesting to observe.	The surgery is commonly found in nature.	0.10800000000000001
+woman	secretary	N	The woman was very interesting to observe.	The secretary appeared suddenly.	0.198
+man	father	N	People often talk about the man.	People often talk about the father.	0.483
+beach	island	N	The beach appeared suddenly.	The island appeared suddenly.	0.5599999999999999
+story	topic	N	The story appeared suddenly.	I saw a topic yesterday at the park.	0.5
+game	fun	N	The game was very interesting to observe.	The fun appeared suddenly.	0.34199999999999997
+weekend	week	N	I saw a weekend yesterday at the park.	I saw a week yesterday at the park.	0.4
+couple	pair	N	I saw a couple yesterday at the park.	The pair appeared suddenly.	0.833
+woman	wife	N	The woman appeared suddenly.	The wife was very interesting to observe.	0.572
+sheep	cattle	N	People often talk about the sheep.	People often talk about the cattle.	0.477
+purse	bag	N	The purse appeared suddenly.	The bag appeared suddenly.	0.833
+ceiling	cathedral	N	The ceiling was very interesting to observe.	The cathedral was very interesting to observe.	0.242
+bean	coffee	N	The bean appeared suddenly.	The coffee appeared suddenly.	0.515
+wood	paper	N	The wood was very interesting to observe.	The paper appeared suddenly.	0.288
+top	side	N	People often talk about the top.	The side was very interesting to observe.	0.19
+crime	fraud	N	The crime appeared suddenly.	People often talk about the fraud.	0.5650000000000001
+pain	harm	N	The pain was very interesting to observe.	The harm appeared suddenly.	0.538
+lover	companion	N	The lover appeared suddenly.	The companion was very interesting to observe.	0.597
+evening	dusk	N	People often talk about the evening.	The dusk was very interesting to observe.	0.778
+father	daughter	N	The father is commonly found in nature.	The daughter was very interesting to observe.	0.262
+wine	liquor	N	The wine appeared suddenly.	The liquor appeared suddenly.	0.7849999999999999
+cow	goat	N	People often talk about the cow.	People often talk about the goat.	0.29300000000000004
+belief	opinion	N	The belief was very interesting to observe.	The opinion is commonly found in nature.	0.77
+reality	illusion	N	People often talk about the reality.	The illusion was very interesting to observe.	0.142
+pact	agreement	N	The pact was very interesting to observe.	People often talk about the agreement.	0.9019999999999999
+wealth	poverty	N	People often talk about the wealth.	I saw a poverty yesterday at the park.	0.127
+accident	emergency	N	I saw a accident yesterday at the park.	People often talk about the emergency.	0.493
+battle	conquest	N	The battle was very interesting to observe.	The conquest is commonly found in nature.	0.722
+friend	teacher	N	The friend was very interesting to observe.	The teacher is commonly found in nature.	0.262
+illness	infection	N	People often talk about the illness.	The infection appeared suddenly.	0.6900000000000001
+game	trick	N	The game was very interesting to observe.	I saw a trick yesterday at the park.	0.23199999999999998
+brother	son	N	People often talk about the brother.	The son appeared suddenly.	0.348
+aunt	nephew	N	I saw a aunt yesterday at the park.	The nephew is commonly found in nature.	0.31
+worker	mechanic	N	The worker appeared suddenly.	I saw a mechanic yesterday at the park.	0.492
+doctor	orthodontist	N	The doctor is commonly found in nature.	People often talk about the orthodontist.	0.558
+oak	maple	N	I saw a oak yesterday at the park.	The maple is commonly found in nature.	0.603
+bee	queen	N	I saw a bee yesterday at the park.	The queen was very interesting to observe.	0.327
+car	bicycle	N	People often talk about the car.	I saw a bicycle yesterday at the park.	0.34700000000000003
+goal	quest	N	The goal is commonly found in nature.	The quest is commonly found in nature.	0.583
+august	month	N	People often talk about the august.	People often talk about the month.	0.553
+army	squad	N	The army is commonly found in nature.	The squad appeared suddenly.	0.508
+cloud	weather	N	The cloud was very interesting to observe.	The weather appeared suddenly.	0.487
+physician	doctor	N	I saw a physician yesterday at the park.	I saw a doctor yesterday at the park.	0.8880000000000001
+canyon	valley	N	I saw a canyon yesterday at the park.	People often talk about the valley.	0.675
+river	valley	N	The river is commonly found in nature.	The valley appeared suddenly.	0.16699999999999998
+sun	sky	N	The sun is commonly found in nature.	The sky is commonly found in nature.	0.227
+target	arrow	N	I saw a target yesterday at the park.	People often talk about the arrow.	0.325
+chocolate	pie	N	The chocolate was very interesting to observe.	I saw a pie yesterday at the park.	0.227
+circumstance	situation	N	The circumstance appeared suddenly.	The situation was very interesting to observe.	0.7849999999999999
+opinion	choice	N	The opinion is commonly found in nature.	The choice was very interesting to observe.	0.5429999999999999
+rhythm	melody	N	The rhythm appeared suddenly.	I saw a melody yesterday at the park.	0.612
+gut	nerve	N	The gut is commonly found in nature.	The nerve was very interesting to observe.	0.493
+day	dawn	N	The day is commonly found in nature.	The dawn is commonly found in nature.	0.5469999999999999
+cattle	beef	N	I saw a cattle yesterday at the park.	I saw a beef yesterday at the park.	0.7030000000000001
+doctor	professor	N	The doctor was very interesting to observe.	People often talk about the professor.	0.465
+arm	vein	N	The arm appeared suddenly.	People often talk about the vein.	0.365
+room	bath	N	The room is commonly found in nature.	The bath was very interesting to observe.	0.333
+corporation	business	N	People often talk about the corporation.	People often talk about the business.	0.9019999999999999
+fun	football	N	I saw a fun yesterday at the park.	The football was very interesting to observe.	0.197
+hill	cliff	N	The hill was very interesting to observe.	The cliff appeared suddenly.	0.42800000000000005
+bone	ankle	N	People often talk about the bone.	The ankle appeared suddenly.	0.382
+apple	candy	N	People often talk about the apple.	I saw a candy yesterday at the park.	0.20800000000000002
+helper	maid	N	I saw a helper yesterday at the park.	I saw a maid yesterday at the park.	0.558
+leader	manager	N	People often talk about the leader.	The manager was very interesting to observe.	0.727
+lemon	tea	N	The lemon is commonly found in nature.	The tea was very interesting to observe.	0.16
+bee	ant	N	The bee is commonly found in nature.	I saw a ant yesterday at the park.	0.27799999999999997
+basketball	baseball	N	The basketball was very interesting to observe.	The baseball is commonly found in nature.	0.492
+rice	bean	N	People often talk about the rice.	People often talk about the bean.	0.272
+bed	furniture	N	The bed appeared suddenly.	I saw a furniture yesterday at the park.	0.608
+emotion	passion	N	The emotion was very interesting to observe.	I saw a passion yesterday at the park.	0.772
+anarchy	chaos	N	The anarchy is commonly found in nature.	People often talk about the chaos.	0.7929999999999999
+crime	violation	N	The crime is commonly found in nature.	I saw a violation yesterday at the park.	0.712
+machine	engine	N	The machine appeared suddenly.	The engine was very interesting to observe.	0.558
+beach	sea	N	I saw a beach yesterday at the park.	The sea was very interesting to observe.	0.46799999999999997
+alley	bowl	N	The alley is commonly found in nature.	The bowl is commonly found in nature.	0.153
+jar	bottle	N	The jar is commonly found in nature.	The bottle was very interesting to observe.	0.783
+strength	capability	N	The strength is commonly found in nature.	People often talk about the capability.	0.528
+seed	mustard	N	I saw a seed yesterday at the park.	I saw a mustard yesterday at the park.	0.348
+guitar	drum	N	The guitar was very interesting to observe.	The drum is commonly found in nature.	0.378
+opinion	idea	N	The opinion is commonly found in nature.	The idea is commonly found in nature.	0.5700000000000001
+north	west	N	The north is commonly found in nature.	The west was very interesting to observe.	0.363
+diet	salad	N	People often talk about the diet.	The salad was very interesting to observe.	0.298
+mother	wife	N	The mother is commonly found in nature.	The wife is commonly found in nature.	0.302
+dad	mother	N	The dad was very interesting to observe.	People often talk about the mother.	0.355
+captain	sailor	N	The captain is commonly found in nature.	People often talk about the sailor.	0.5
+meter	yard	N	The meter is commonly found in nature.	People often talk about the yard.	0.5599999999999999
+beer	champagne	N	The beer is commonly found in nature.	The champagne was very interesting to observe.	0.445
+motor	boat	N	I saw a motor yesterday at the park.	People often talk about the boat.	0.257
+card	bridge	N	I saw a card yesterday at the park.	The bridge appeared suddenly.	0.197
+science	psychology	N	The science was very interesting to observe.	The psychology appeared suddenly.	0.492
+sinner	saint	N	The sinner appeared suddenly.	The saint appeared suddenly.	0.16
+destruction	construction	N	The destruction appeared suddenly.	I saw a construction yesterday at the park.	0.098
+crowd	bunch	N	The crowd appeared suddenly.	The bunch is commonly found in nature.	0.742
+beach	reef	N	The beach is commonly found in nature.	I saw a reef yesterday at the park.	0.377
+man	child	N	The man is commonly found in nature.	People often talk about the child.	0.413
+bread	cheese	N	People often talk about the bread.	People often talk about the cheese.	0.195
+champion	winner	N	People often talk about the champion.	The winner appeared suddenly.	0.873
+celebration	ceremony	N	I saw a celebration yesterday at the park.	The ceremony appeared suddenly.	0.772
+menu	order	N	The menu is commonly found in nature.	The order was very interesting to observe.	0.362
+king	princess	N	The king was very interesting to observe.	The princess was very interesting to observe.	0.327
+wealth	prestige	N	The wealth was very interesting to observe.	People often talk about the prestige.	0.607
+endurance	strength	N	The endurance was very interesting to observe.	I saw a strength yesterday at the park.	0.658
+danger	threat	N	The danger was very interesting to observe.	The threat appeared suddenly.	0.8779999999999999
+god	priest	N	The god appeared suddenly.	The priest appeared suddenly.	0.45
+men	fraternity	N	The men was very interesting to observe.	The fraternity is commonly found in nature.	0.313
+buddy	companion	N	I saw a buddy yesterday at the park.	People often talk about the companion.	0.865
+teacher	helper	N	The teacher is commonly found in nature.	The helper is commonly found in nature.	0.42800000000000005
+body	stomach	N	People often talk about the body.	The stomach was very interesting to observe.	0.393
+tongue	throat	N	The tongue is commonly found in nature.	People often talk about the throat.	0.31
+house	carpet	N	The house is commonly found in nature.	The carpet appeared suddenly.	0.13799999999999998
+intelligence	skill	N	People often talk about the intelligence.	The skill appeared suddenly.	0.5349999999999999
+journey	conquest	N	The journey is commonly found in nature.	The conquest appeared suddenly.	0.472
+god	prey	N	The god is commonly found in nature.	The prey was very interesting to observe.	0.123
+brother	soul	N	The brother was very interesting to observe.	The soul is commonly found in nature.	0.097
+adversary	opponent	N	The adversary is commonly found in nature.	The opponent appeared suddenly.	0.905
+death	catastrophe	N	I saw a death yesterday at the park.	The catastrophe appeared suddenly.	0.413
+monster	demon	N	I saw a monster yesterday at the park.	The demon appeared suddenly.	0.6950000000000001
+day	morning	N	The day appeared suddenly.	I saw a morning yesterday at the park.	0.487
+man	victor	N	The man is commonly found in nature.	I saw a victor yesterday at the park.	0.19
+friend	guy	N	People often talk about the friend.	People often talk about the guy.	0.388
+song	story	N	The song was very interesting to observe.	The story is commonly found in nature.	0.397
+ray	sunshine	N	People often talk about the ray.	The sunshine is commonly found in nature.	0.683
+guy	stud	N	The guy is commonly found in nature.	The stud was very interesting to observe.	0.583
+chicken	rice	N	The chicken appeared suddenly.	I saw a rice yesterday at the park.	0.143
+box	elevator	N	I saw a box yesterday at the park.	The elevator appeared suddenly.	0.132
+butter	potato	N	People often talk about the butter.	People often talk about the potato.	0.122
+apartment	furniture	N	The apartment is commonly found in nature.	The furniture is commonly found in nature.	0.128
+lake	swamp	N	I saw a lake yesterday at the park.	The swamp was very interesting to observe.	0.492
+salad	vinegar	N	The salad is commonly found in nature.	I saw a vinegar yesterday at the park.	0.11299999999999999
+flower	bulb	N	The flower appeared suddenly.	People often talk about the bulb.	0.44800000000000006
+cloud	mist	N	The cloud was very interesting to observe.	The mist appeared suddenly.	0.667
+driver	pilot	N	People often talk about the driver.	I saw a pilot yesterday at the park.	0.628
+sugar	honey	N	The sugar appeared suddenly.	The honey was very interesting to observe.	0.513
+body	shoulder	N	People often talk about the body.	I saw a shoulder yesterday at the park.	0.288
+idea	image	N	The idea appeared suddenly.	I saw a image yesterday at the park.	0.355
+father	brother	N	People often talk about the father.	The brother appeared suddenly.	0.42000000000000004
+moon	planet	N	I saw a moon yesterday at the park.	The planet appeared suddenly.	0.587
+ball	costume	N	The ball appeared suddenly.	The costume is commonly found in nature.	0.23199999999999998
+rail	fence	N	The rail is commonly found in nature.	The fence is commonly found in nature.	0.522
+room	bed	N	People often talk about the room.	The bed is commonly found in nature.	0.23500000000000001
+flower	bush	N	The flower is commonly found in nature.	The bush was very interesting to observe.	0.425
+bone	knee	N	The bone is commonly found in nature.	People often talk about the knee.	0.417
+arm	knee	N	The arm is commonly found in nature.	People often talk about the knee.	0.275
+bottom	side	N	The bottom is commonly found in nature.	The side appeared suddenly.	0.263
+vessel	vein	N	People often talk about the vessel.	The vein is commonly found in nature.	0.515
+cat	rabbit	N	I saw a cat yesterday at the park.	People often talk about the rabbit.	0.23700000000000002
+meat	sandwich	N	The meat is commonly found in nature.	The sandwich is commonly found in nature.	0.23500000000000001
+belief	concept	N	The belief was very interesting to observe.	The concept is commonly found in nature.	0.508
+intelligence	insight	N	I saw a intelligence yesterday at the park.	The insight was very interesting to observe.	0.5900000000000001
+attention	interest	N	I saw a attention yesterday at the park.	The interest appeared suddenly.	0.722
+attitude	confidence	N	The attitude was very interesting to observe.	The confidence appeared suddenly.	0.43499999999999994
+right	justice	N	The right is commonly found in nature.	I saw a justice yesterday at the park.	0.705
+argument	agreement	N	The argument was very interesting to observe.	The agreement was very interesting to observe.	0.145
+depth	magnitude	N	The depth appeared suddenly.	People often talk about the magnitude.	0.612
+medium	news	N	I saw a medium yesterday at the park.	I saw a news yesterday at the park.	0.365
+winner	candidate	N	The winner was very interesting to observe.	The candidate appeared suddenly.	0.27799999999999997
+birthday	date	N	The birthday was very interesting to observe.	People often talk about the date.	0.508
+fee	payment	N	I saw a fee yesterday at the park.	I saw a payment yesterday at the park.	0.7150000000000001
+bible	hymn	N	People often talk about the bible.	The hymn is commonly found in nature.	0.515
+exit	doorway	N	The exit appeared suddenly.	I saw a doorway yesterday at the park.	0.55
+man	sentry	N	People often talk about the man.	I saw a sentry yesterday at the park.	0.325
+aisle	hall	N	People often talk about the aisle.	The hall appeared suddenly.	0.635
+whiskey	gin	N	People often talk about the whiskey.	I saw a gin yesterday at the park.	0.628
+blood	marrow	N	The blood was very interesting to observe.	I saw a marrow yesterday at the park.	0.33999999999999997
+oil	mink	N	People often talk about the oil.	People often talk about the mink.	0.123
+floor	deck	N	People often talk about the floor.	The deck is commonly found in nature.	0.5549999999999999
+roof	floor	N	The roof appeared suddenly.	The floor was very interesting to observe.	0.262
+door	floor	N	I saw a door yesterday at the park.	I saw a floor yesterday at the park.	0.16699999999999998
+shoulder	head	N	The shoulder was very interesting to observe.	The head appeared suddenly.	0.34199999999999997
+wagon	carriage	N	The wagon appeared suddenly.	I saw a carriage yesterday at the park.	0.77
+car	carriage	N	The car is commonly found in nature.	The carriage appeared suddenly.	0.513
+elbow	ankle	N	I saw a elbow yesterday at the park.	The ankle appeared suddenly.	0.313
+wealth	fame	N	I saw a wealth yesterday at the park.	The fame is commonly found in nature.	0.40199999999999997
+sorrow	shame	N	The sorrow is commonly found in nature.	The shame is commonly found in nature.	0.477
+administration	management	N	People often talk about the administration.	The management appeared suddenly.	0.725
+communication	conversation	N	The communication is commonly found in nature.	The conversation appeared suddenly.	0.8019999999999999
+pollution	atmosphere	N	People often talk about the pollution.	The atmosphere appeared suddenly.	0.425
+anatomy	biology	N	I saw a anatomy yesterday at the park.	The biology was very interesting to observe.	0.533
+college	profession	N	The college was very interesting to observe.	The profession is commonly found in nature.	0.312
+book	topic	N	I saw a book yesterday at the park.	The topic was very interesting to observe.	0.207
+formula	equation	N	The formula is commonly found in nature.	The equation appeared suddenly.	0.795
+book	information	N	I saw a book yesterday at the park.	The information was very interesting to observe.	0.5
+boy	partner	N	I saw a boy yesterday at the park.	The partner appeared suddenly.	0.19
+sky	universe	N	The sky appeared suddenly.	The universe was very interesting to observe.	0.46799999999999997
+population	people	N	The population was very interesting to observe.	I saw a people yesterday at the park.	0.768
+college	class	N	I saw a college yesterday at the park.	The class is commonly found in nature.	0.413
+chief	mayor	N	The chief appeared suddenly.	People often talk about the mayor.	0.485
+rabbi	minister	N	I saw a rabbi yesterday at the park.	The minister is commonly found in nature.	0.762
+meter	inch	N	The meter was very interesting to observe.	People often talk about the inch.	0.508
+polyester	cotton	N	I saw a polyester yesterday at the park.	The cotton appeared suddenly.	0.563
+lawyer	banker	N	The lawyer was very interesting to observe.	The banker is commonly found in nature.	0.188
+violin	instrument	N	The violin is commonly found in nature.	The instrument appeared suddenly.	0.658
+camp	cabin	N	I saw a camp yesterday at the park.	The cabin appeared suddenly.	0.42000000000000004
+pot	appliance	N	I saw a pot yesterday at the park.	The appliance is commonly found in nature.	0.253
+linen	fabric	N	The linen appeared suddenly.	The fabric appeared suddenly.	0.747
+whiskey	champagne	N	The whiskey appeared suddenly.	People often talk about the champagne.	0.533
+girl	child	N	I saw a girl yesterday at the park.	The child appeared suddenly.	0.538
+cottage	cabin	N	The cottage was very interesting to observe.	The cabin is commonly found in nature.	0.772
+bird	hen	N	I saw a bird yesterday at the park.	I saw a hen yesterday at the park.	0.7030000000000001
+racket	noise	N	People often talk about the racket.	I saw a noise yesterday at the park.	0.8099999999999999
+sunset	evening	N	People often talk about the sunset.	The evening appeared suddenly.	0.5980000000000001
+drizzle	rain	N	The drizzle appeared suddenly.	I saw a rain yesterday at the park.	0.917
+adult	baby	N	The adult was very interesting to observe.	The baby is commonly found in nature.	0.22200000000000003
+charcoal	coal	N	People often talk about the charcoal.	The coal was very interesting to observe.	0.763
+body	spine	N	The body is commonly found in nature.	The spine appeared suddenly.	0.47800000000000004
+head	nail	N	The head was very interesting to observe.	The nail was very interesting to observe.	0.24700000000000003
+log	timber	N	I saw a log yesterday at the park.	I saw a timber yesterday at the park.	0.805
+spoon	cup	N	The spoon appeared suddenly.	The cup was very interesting to observe.	0.202
+body	nerve	N	People often talk about the body.	The nerve was very interesting to observe.	0.313
+man	husband	N	The man was very interesting to observe.	The husband appeared suddenly.	0.532
+bone	neck	N	People often talk about the bone.	People often talk about the neck.	0.253
+frustration	anger	N	The frustration appeared suddenly.	The anger was very interesting to observe.	0.65
+river	sea	N	The river appeared suddenly.	The sea appeared suddenly.	0.572
+task	job	N	I saw a task yesterday at the park.	The job appeared suddenly.	0.8869999999999999
+club	society	N	The club appeared suddenly.	People often talk about the society.	0.523
+reflection	image	N	People often talk about the reflection.	The image was very interesting to observe.	0.727
+prince	king	N	The prince is commonly found in nature.	The king was very interesting to observe.	0.592
+snow	weather	N	The snow was very interesting to observe.	I saw a weather yesterday at the park.	0.548
+people	party	N	I saw a people yesterday at the park.	People often talk about the party.	0.22000000000000003
+boy	brother	N	The boy appeared suddenly.	People often talk about the brother.	0.667
+root	grass	N	The root appeared suddenly.	The grass appeared suddenly.	0.355
+brow	eye	N	People often talk about the brow.	I saw a eye yesterday at the park.	0.382
+money	pearl	N	The money appeared suddenly.	People often talk about the pearl.	0.21000000000000002
+money	diamond	N	The money is commonly found in nature.	The diamond was very interesting to observe.	0.34199999999999997
+vehicle	bus	N	The vehicle is commonly found in nature.	I saw a bus yesterday at the park.	0.647
+cab	bus	N	People often talk about the cab.	The bus was very interesting to observe.	0.5599999999999999
+house	barn	N	The house was very interesting to observe.	The barn is commonly found in nature.	0.433
+finger	palm	N	The finger appeared suddenly.	The palm was very interesting to observe.	0.333
+car	bridge	N	The car is commonly found in nature.	I saw a bridge yesterday at the park.	0.095
+effort	difficulty	N	The effort is commonly found in nature.	The difficulty appeared suddenly.	0.445
+fact	insight	N	I saw a fact yesterday at the park.	I saw a insight yesterday at the park.	0.477
+job	management	N	People often talk about the job.	The management is commonly found in nature.	0.397
+cancer	sickness	N	I saw a cancer yesterday at the park.	People often talk about the sickness.	0.7929999999999999
+word	newspaper	N	The word is commonly found in nature.	The newspaper appeared suddenly.	0.24700000000000003
+composer	writer	N	People often talk about the composer.	People often talk about the writer.	0.658
+actor	singer	N	The actor is commonly found in nature.	The singer was very interesting to observe.	0.45199999999999996
+shelter	hut	N	The shelter was very interesting to observe.	The hut is commonly found in nature.	0.647
+bathroom	kitchen	N	I saw a bathroom yesterday at the park.	The kitchen was very interesting to observe.	0.31
+cabin	hut	N	The cabin was very interesting to observe.	The hut appeared suddenly.	0.653
+door	kitchen	N	People often talk about the door.	The kitchen appeared suddenly.	0.16699999999999998
+value	belief	N	The value appeared suddenly.	I saw a belief yesterday at the park.	0.7070000000000001
+wisdom	intelligence	N	The wisdom was very interesting to observe.	The intelligence was very interesting to observe.	0.747
+ignorance	intelligence	N	I saw a ignorance yesterday at the park.	I saw a intelligence yesterday at the park.	0.15
+happiness	luck	N	I saw a happiness yesterday at the park.	People often talk about the luck.	0.238
+idea	scheme	N	The idea is commonly found in nature.	I saw a scheme yesterday at the park.	0.675
+mood	emotion	N	People often talk about the mood.	The emotion appeared suddenly.	0.8119999999999999
+happiness	peace	N	I saw a happiness yesterday at the park.	The peace appeared suddenly.	0.603
+despair	misery	N	The despair was very interesting to observe.	The misery was very interesting to observe.	0.722
+logic	arithmetic	N	I saw a logic yesterday at the park.	I saw a arithmetic yesterday at the park.	0.397
+denial	confession	N	I saw a denial yesterday at the park.	The confession was very interesting to observe.	0.10300000000000001
+argument	criticism	N	The argument was very interesting to observe.	The criticism was very interesting to observe.	0.508
+aggression	hostility	N	The aggression was very interesting to observe.	People often talk about the hostility.	0.8480000000000001
+hysteria	confusion	N	I saw a hysteria yesterday at the park.	People often talk about the confusion.	0.633
+chemistry	theory	N	People often talk about the chemistry.	The theory is commonly found in nature.	0.317
+trial	verdict	N	The trial is commonly found in nature.	The verdict appeared suddenly.	0.333
+comfort	safety	N	The comfort was very interesting to observe.	The safety was very interesting to observe.	0.58
+confidence	self	N	The confidence was very interesting to observe.	The self was very interesting to observe.	0.312
+vision	perception	N	I saw a vision yesterday at the park.	People often talk about the perception.	0.688
+era	decade	N	I saw a era yesterday at the park.	The decade appeared suddenly.	0.54
+biography	fiction	N	I saw a biography yesterday at the park.	The fiction appeared suddenly.	0.13799999999999998
+discussion	argument	N	People often talk about the discussion.	The argument is commonly found in nature.	0.548
+code	symbol	N	People often talk about the code.	People often talk about the symbol.	0.603
+danger	disease	N	I saw a danger yesterday at the park.	I saw a disease yesterday at the park.	0.3
+accident	catastrophe	N	The accident is commonly found in nature.	I saw a catastrophe yesterday at the park.	0.5900000000000001
+journey	trip	N	The journey was very interesting to observe.	The trip was very interesting to observe.	0.8880000000000001
+activity	movement	N	The activity is commonly found in nature.	The movement was very interesting to observe.	0.7150000000000001
+gossip	news	N	The gossip is commonly found in nature.	The news is commonly found in nature.	0.522
+father	god	N	The father is commonly found in nature.	The god appeared suddenly.	0.357
+action	course	N	I saw a action yesterday at the park.	People often talk about the course.	0.545
+fever	illness	N	The fever appeared suddenly.	The illness appeared suddenly.	0.765
+aviation	flight	N	The aviation was very interesting to observe.	The flight is commonly found in nature.	0.818
+game	action	N	I saw a game yesterday at the park.	People often talk about the action.	0.485
+molecule	air	N	The molecule is commonly found in nature.	People often talk about the air.	0.305
+home	state	N	The home was very interesting to observe.	The state is commonly found in nature.	0.258
+word	literature	N	People often talk about the word.	The literature appeared suddenly.	0.477
+adult	guardian	N	People often talk about the adult.	The guardian was very interesting to observe.	0.6900000000000001
+newspaper	information	N	People often talk about the newspaper.	The information is commonly found in nature.	0.5650000000000001
+communication	television	N	The communication is commonly found in nature.	The television was very interesting to observe.	0.5599999999999999
+cousin	uncle	N	I saw a cousin yesterday at the park.	People often talk about the uncle.	0.46299999999999997
+author	reader	N	The author was very interesting to observe.	I saw a reader yesterday at the park.	0.16
+guy	partner	N	I saw a guy yesterday at the park.	The partner was very interesting to observe.	0.357
+area	corner	N	The area is commonly found in nature.	The corner appeared suddenly.	0.207
+ballad	song	N	The ballad appeared suddenly.	The song was very interesting to observe.	0.753
+wall	decoration	N	I saw a wall yesterday at the park.	The decoration is commonly found in nature.	0.262
+word	page	N	People often talk about the word.	I saw a page yesterday at the park.	0.292
+nurse	scientist	N	The nurse is commonly found in nature.	The scientist was very interesting to observe.	0.20800000000000002
+politician	president	N	People often talk about the politician.	The president is commonly found in nature.	0.738
+president	mayor	N	The president is commonly found in nature.	The mayor appeared suddenly.	0.568
+book	essay	N	People often talk about the book.	The essay appeared suddenly.	0.472
+man	warrior	N	I saw a man yesterday at the park.	People often talk about the warrior.	0.472
+article	journal	N	The article was very interesting to observe.	The journal is commonly found in nature.	0.618
+breakfast	supper	N	The breakfast appeared suddenly.	The supper was very interesting to observe.	0.44000000000000006
+crowd	parade	N	People often talk about the crowd.	The parade appeared suddenly.	0.393
+aisle	hallway	N	The aisle was very interesting to observe.	The hallway was very interesting to observe.	0.675
+teacher	rabbi	N	The teacher was very interesting to observe.	The rabbi appeared suddenly.	0.437
+hip	lip	N	People often talk about the hip.	I saw a lip yesterday at the park.	0.143
+book	article	N	The book was very interesting to observe.	The article appeared suddenly.	0.5429999999999999
+room	cell	N	The room was very interesting to observe.	The cell is commonly found in nature.	0.458
+box	booth	N	The box appeared suddenly.	The booth appeared suddenly.	0.38
+daughter	kid	N	I saw a daughter yesterday at the park.	The kid was very interesting to observe.	0.417
+limb	leg	N	People often talk about the limb.	I saw a leg yesterday at the park.	0.6900000000000001
+liver	lung	N	People often talk about the liver.	The lung was very interesting to observe.	0.27
+classroom	hallway	N	The classroom was very interesting to observe.	I saw a hallway yesterday at the park.	0.2
+mountain	ledge	N	The mountain is commonly found in nature.	The ledge is commonly found in nature.	0.373
+car	elevator	N	I saw a car yesterday at the park.	People often talk about the elevator.	0.10300000000000001
+bed	couch	N	The bed is commonly found in nature.	People often talk about the couch.	0.34199999999999997
+clothes	button	N	People often talk about the clothes.	The button is commonly found in nature.	0.22999999999999998
+clothes	coat	N	People often talk about the clothes.	The coat was very interesting to observe.	0.5349999999999999
+kidney	organ	N	The kidney appeared suddenly.	The organ is commonly found in nature.	0.617
+apple	sauce	N	I saw a apple yesterday at the park.	The sauce appeared suddenly.	0.143
+chicken	steak	N	The chicken is commonly found in nature.	The steak is commonly found in nature.	0.373
+car	hose	N	The car was very interesting to observe.	The hose was very interesting to observe.	0.087
+tobacco	cigarette	N	The tobacco was very interesting to observe.	I saw a cigarette yesterday at the park.	0.75
+student	professor	N	The student was very interesting to observe.	The professor appeared suddenly.	0.195
+baby	daughter	N	People often talk about the baby.	I saw a daughter yesterday at the park.	0.5
+pipe	cigar	N	The pipe was very interesting to observe.	The cigar is commonly found in nature.	0.603
+milk	juice	N	The milk is commonly found in nature.	People often talk about the juice.	0.40499999999999997
+box	cigar	N	I saw a box yesterday at the park.	The cigar is commonly found in nature.	0.125
+apartment	hotel	N	People often talk about the apartment.	People often talk about the hotel.	0.333
+cup	cone	N	People often talk about the cup.	The cone is commonly found in nature.	0.317
+horse	ox	N	The horse was very interesting to observe.	The ox was very interesting to observe.	0.302
+throat	nose	N	The throat was very interesting to observe.	The nose appeared suddenly.	0.27999999999999997
+bone	teeth	N	The bone was very interesting to observe.	The teeth was very interesting to observe.	0.417
+bone	elbow	N	The bone appeared suddenly.	I saw a elbow yesterday at the park.	0.378
+bacon	bean	N	I saw a bacon yesterday at the park.	The bean appeared suddenly.	0.122
+cup	jar	N	People often talk about the cup.	People often talk about the jar.	0.513
+proof	fact	N	The proof is commonly found in nature.	The fact is commonly found in nature.	0.73
+appointment	engagement	N	The appointment is commonly found in nature.	The engagement is commonly found in nature.	0.675
+birthday	year	N	People often talk about the birthday.	The year is commonly found in nature.	0.16699999999999998
+word	clue	N	I saw a word yesterday at the park.	People often talk about the clue.	0.253
+author	creator	N	The author was very interesting to observe.	The creator was very interesting to observe.	0.8019999999999999
+atom	carbon	N	The atom was very interesting to observe.	The carbon was very interesting to observe.	0.31
+archbishop	bishop	N	The archbishop was very interesting to observe.	I saw a bishop yesterday at the park.	0.705
+letter	paragraph	N	People often talk about the letter.	The paragraph is commonly found in nature.	0.4
+page	paragraph	N	The page appeared suddenly.	The paragraph is commonly found in nature.	0.303
+steeple	chapel	N	People often talk about the steeple.	I saw a chapel yesterday at the park.	0.708
+muscle	bone	N	The muscle is commonly found in nature.	The bone appeared suddenly.	0.365
+muscle	tongue	N	The muscle is commonly found in nature.	The tongue is commonly found in nature.	0.5
+boy	soldier	N	I saw a boy yesterday at the park.	The soldier was very interesting to observe.	0.215
+belly	abdomen	N	The belly appeared suddenly.	People often talk about the abdomen.	0.8130000000000001
+guy	girl	N	People often talk about the guy.	The girl appeared suddenly.	0.333
+bed	chair	N	The bed is commonly found in nature.	I saw a chair yesterday at the park.	0.35
+clothes	jacket	N	The clothes is commonly found in nature.	The jacket was very interesting to observe.	0.515
+gun	knife	N	People often talk about the gun.	The knife appeared suddenly.	0.365
+tin	metal	N	People often talk about the tin.	People often talk about the metal.	0.563
+bottle	container	N	The bottle was very interesting to observe.	The container was very interesting to observe.	0.7929999999999999
+hen	turkey	N	The hen was very interesting to observe.	People often talk about the turkey.	0.613
+meat	bread	N	The meat was very interesting to observe.	The bread appeared suddenly.	0.16699999999999998
+arm	bone	N	The arm is commonly found in nature.	People often talk about the bone.	0.383
+neck	spine	N	People often talk about the neck.	People often talk about the spine.	0.532
+apple	lemon	N	The apple was very interesting to observe.	The lemon appeared suddenly.	0.40499999999999997
+agony	grief	N	The agony appeared suddenly.	I saw a grief yesterday at the park.	0.763
+assignment	task	N	I saw a assignment yesterday at the park.	People often talk about the task.	0.8699999999999999
+night	dawn	N	The night was very interesting to observe.	People often talk about the dawn.	0.29500000000000004
+dinner	soup	N	The dinner is commonly found in nature.	The soup appeared suddenly.	0.372
+calf	bull	N	People often talk about the calf.	I saw a bull yesterday at the park.	0.493
+snow	storm	N	The snow appeared suddenly.	The storm is commonly found in nature.	0.48
+nail	hand	N	I saw a nail yesterday at the park.	People often talk about the hand.	0.34199999999999997
+dog	horse	N	The dog was very interesting to observe.	The horse was very interesting to observe.	0.238
+arm	neck	N	I saw a arm yesterday at the park.	I saw a neck yesterday at the park.	0.158
+ball	glove	N	The ball was very interesting to observe.	People often talk about the glove.	0.175
+flu	fever	N	The flu appeared suddenly.	The fever is commonly found in nature.	0.608
+fee	salary	N	The fee is commonly found in nature.	I saw a salary yesterday at the park.	0.372
+nerve	brain	N	The nerve was very interesting to observe.	The brain appeared suddenly.	0.388
+beast	animal	N	The beast appeared suddenly.	People often talk about the animal.	0.783
+dinner	chicken	N	I saw a dinner yesterday at the park.	The chicken is commonly found in nature.	0.28500000000000003
+girl	maid	N	People often talk about the girl.	The maid was very interesting to observe.	0.29300000000000004
+child	boy	N	People often talk about the child.	The boy was very interesting to observe.	0.575
+alcohol	wine	N	People often talk about the alcohol.	People often talk about the wine.	0.742
+nose	mouth	N	The nose appeared suddenly.	The mouth appeared suddenly.	0.373
+street	car	N	The street appeared suddenly.	The car appeared suddenly.	0.238
+bell	door	N	The bell was very interesting to observe.	The door appeared suddenly.	0.22000000000000003
+box	hat	N	The box is commonly found in nature.	I saw a hat yesterday at the park.	0.13
+belief	impression	N	I saw a belief yesterday at the park.	People often talk about the impression.	0.595
+bias	opinion	N	The bias is commonly found in nature.	The opinion appeared suddenly.	0.5599999999999999
+attention	awareness	N	I saw a attention yesterday at the park.	The awareness is commonly found in nature.	0.873
+anger	mood	N	The anger was very interesting to observe.	The mood was very interesting to observe.	0.41
+elegance	style	N	The elegance appeared suddenly.	People often talk about the style.	0.572
+beauty	age	N	I saw a beauty yesterday at the park.	People often talk about the age.	0.158
+book	theme	N	The book appeared suddenly.	People often talk about the theme.	0.258
+friend	mother	N	I saw a friend yesterday at the park.	The mother appeared suddenly.	0.253
+vitamin	iron	N	The vitamin appeared suddenly.	The iron appeared suddenly.	0.5549999999999999
+car	factory	N	I saw a car yesterday at the park.	I saw a factory yesterday at the park.	0.275
+pact	condition	N	The pact appeared suddenly.	The condition was very interesting to observe.	0.24500000000000002
+chapter	choice	N	I saw a chapter yesterday at the park.	The choice was very interesting to observe.	0.048
+arithmetic	rhythm	N	The arithmetic is commonly found in nature.	The rhythm is commonly found in nature.	0.23500000000000001
+winner	presence	N	The winner appeared suddenly.	People often talk about the presence.	0.10800000000000001
+belief	flower	N	I saw a belief yesterday at the park.	I saw a flower yesterday at the park.	0.04
+winner	goal	N	I saw a winner yesterday at the park.	I saw a goal yesterday at the park.	0.323
+trick	size	N	The trick was very interesting to observe.	The size appeared suddenly.	0.048
+choice	vein	N	The choice was very interesting to observe.	The vein appeared suddenly.	0.098
+hymn	conquest	N	The hymn is commonly found in nature.	The conquest is commonly found in nature.	0.068
+endurance	band	N	The endurance is commonly found in nature.	I saw a band yesterday at the park.	0.04
+jail	choice	N	I saw a jail yesterday at the park.	People often talk about the choice.	0.10800000000000001
+condition	boy	N	I saw a condition yesterday at the park.	I saw a boy yesterday at the park.	0.048
+flower	endurance	N	The flower was very interesting to observe.	The endurance is commonly found in nature.	0.04
+hole	agreement	N	The hole was very interesting to observe.	The agreement is commonly found in nature.	0.03
+doctor	temper	N	I saw a doctor yesterday at the park.	People often talk about the temper.	0.048
+fraternity	door	N	The fraternity was very interesting to observe.	The door appeared suddenly.	0.068
+task	woman	N	I saw a task yesterday at the park.	The woman is commonly found in nature.	0.068
+fraternity	baseball	N	The fraternity is commonly found in nature.	The baseball appeared suddenly.	0.088
+cent	size	N	The cent was very interesting to observe.	People often talk about the size.	0.04
+presence	door	N	I saw a presence yesterday at the park.	The door appeared suddenly.	0.048
+mouse	management	N	The mouse appeared suddenly.	The management was very interesting to observe.	0.048
+task	highway	N	The task is commonly found in nature.	The highway was very interesting to observe.	0.048
+liquor	century	N	The liquor appeared suddenly.	I saw a century yesterday at the park.	0.04
+task	straw	N	The task appeared suddenly.	People often talk about the straw.	0.068
+island	task	N	The island was very interesting to observe.	People often talk about the task.	0.03
+night	chapter	N	The night was very interesting to observe.	The chapter was very interesting to observe.	0.048
+pollution	president	N	The pollution is commonly found in nature.	The president is commonly found in nature.	0.068
+gun	trick	N	I saw a gun yesterday at the park.	The trick appeared suddenly.	0.048
+bath	trick	N	The bath is commonly found in nature.	People often talk about the trick.	0.057999999999999996
+diet	apple	N	The diet was very interesting to observe.	The apple is commonly found in nature.	0.118
+cent	wife	N	I saw a cent yesterday at the park.	The wife appeared suddenly.	0.057999999999999996
+chapter	tail	N	The chapter was very interesting to observe.	The tail is commonly found in nature.	0.03
+course	stomach	N	The course appeared suddenly.	People often talk about the stomach.	0.057999999999999996
+hymn	straw	N	The hymn was very interesting to observe.	The straw is commonly found in nature.	0.04
+dentist	colonel	N	The dentist is commonly found in nature.	People often talk about the colonel.	0.04
+wife	straw	N	The wife was very interesting to observe.	The straw is commonly found in nature.	0.04
+hole	wife	N	The hole was very interesting to observe.	The wife was very interesting to observe.	0.068
+pupil	president	N	The pupil is commonly found in nature.	People often talk about the president.	0.078
+bath	wife	N	The bath is commonly found in nature.	The wife was very interesting to observe.	0.048
+people	cent	N	The people was very interesting to observe.	The cent appeared suddenly.	0.048
+formula	log	N	The formula was very interesting to observe.	The log was very interesting to observe.	0.177
+woman	fur	N	People often talk about the woman.	The fur was very interesting to observe.	0.057999999999999996
+apple	sunshine	N	I saw a apple yesterday at the park.	People often talk about the sunshine.	0.057999999999999996
+gun	dawn	N	People often talk about the gun.	The dawn is commonly found in nature.	0.118
+meal	waist	N	I saw a meal yesterday at the park.	The waist appeared suddenly.	0.098
+camera	president	N	The camera is commonly found in nature.	People often talk about the president.	0.048
+liquor	band	N	People often talk about the liquor.	The band appeared suddenly.	0.068
+stomach	vein	N	I saw a stomach yesterday at the park.	I saw a vein yesterday at the park.	0.23500000000000001
+gun	fur	N	The gun is commonly found in nature.	I saw a fur yesterday at the park.	0.03
+couch	baseball	N	The couch appeared suddenly.	The baseball is commonly found in nature.	0.088
+worker	camera	N	I saw a worker yesterday at the park.	People often talk about the camera.	0.068
+deck	mouse	N	I saw a deck yesterday at the park.	The mouse was very interesting to observe.	0.048
+rice	boy	N	The rice was very interesting to observe.	The boy appeared suddenly.	0.04
+people	gun	N	The people was very interesting to observe.	The gun appeared suddenly.	0.068
+cliff	tail	N	The cliff appeared suddenly.	The tail was very interesting to observe.	0.03
+ankle	window	N	People often talk about the ankle.	I saw a window yesterday at the park.	0.03
+princess	island	N	I saw a princess yesterday at the park.	People often talk about the island.	0.03
+container	mouse	N	The container was very interesting to observe.	The mouse was very interesting to observe.	0.03
+wagon	container	N	I saw a wagon yesterday at the park.	The container was very interesting to observe.	0.265
+people	balloon	N	The people is commonly found in nature.	The balloon is commonly found in nature.	0.048
+dollar	people	N	People often talk about the dollar.	The people appeared suddenly.	0.04
+bath	balloon	N	I saw a bath yesterday at the park.	People often talk about the balloon.	0.04
+stomach	bedroom	N	People often talk about the stomach.	The bedroom was very interesting to observe.	0.04
+bicycle	bedroom	N	The bicycle is commonly found in nature.	I saw a bedroom yesterday at the park.	0.04
+log	bath	N	The log is commonly found in nature.	I saw a bath yesterday at the park.	0.04
+bowl	tail	N	The bowl is commonly found in nature.	The tail was very interesting to observe.	0.048
+go	come	V	It's important to go carefully.	She will come tomorrow.	0.242
+take	steal	V	She will take tomorrow.	It's important to steal carefully.	0.618
+listen	hear	V	We should listen before it's too late.	It's important to hear carefully.	0.817
+think	rationalize	V	They decided to think early in the morning.	He tried to rationalize but failed.	0.825
+occur	happen	V	He tried to occur but failed.	We should happen before it's too late.	0.932
+vanish	disappear	V	It's important to vanish carefully.	They decided to disappear early in the morning.	0.9800000000000001
+multiply	divide	V	We should multiply before it's too late.	We should divide before it's too late.	0.175
+plead	beg	V	We should plead before it's too late.	She will beg tomorrow.	0.908
+begin	originate	V	We should begin before it's too late.	He tried to originate but failed.	0.82
+protect	defend	V	It's important to protect carefully.	They decided to defend early in the morning.	0.913
+kill	destroy	V	He tried to kill but failed.	We should destroy before it's too late.	0.5900000000000001
+create	make	V	It's important to create carefully.	She will make tomorrow.	0.8720000000000001
+accept	reject	V	She will accept tomorrow.	They decided to reject early in the morning.	0.08299999999999999
+ignore	avoid	V	It's important to ignore carefully.	We should avoid before it's too late.	0.687
+carry	bring	V	We should carry before it's too late.	She will bring tomorrow.	0.58
+leave	enter	V	It's important to leave carefully.	He tried to enter but failed.	0.095
+choose	elect	V	He tried to choose but failed.	She will elect tomorrow.	0.762
+lose	fail	V	He tried to lose but failed.	It's important to fail carefully.	0.733
+encourage	discourage	V	It's important to encourage carefully.	They decided to discourage early in the morning.	0.158
+achieve	accomplish	V	She will achieve tomorrow.	We should accomplish before it's too late.	0.857
+make	construct	V	We should make before it's too late.	They decided to construct early in the morning.	0.833
+listen	obey	V	We should listen before it's too late.	He tried to obey but failed.	0.493
+inform	notify	V	She will inform tomorrow.	They decided to notify early in the morning.	0.925
+receive	give	V	They decided to receive early in the morning.	She will give tomorrow.	0.147
+borrow	beg	V	It's important to borrow carefully.	She will beg tomorrow.	0.262
+take	obtain	V	She will take tomorrow.	She will obtain tomorrow.	0.71
+advise	recommend	V	It's important to advise carefully.	It's important to recommend carefully.	0.8099999999999999
+imitate	portray	V	They decided to imitate early in the morning.	He tried to portray but failed.	0.675
+win	succeed	V	We should win before it's too late.	They decided to succeed early in the morning.	0.79
+think	decide	V	They decided to think early in the morning.	It's important to decide carefully.	0.513
+greet	meet	V	They decided to greet early in the morning.	She will meet tomorrow.	0.617
+agree	argue	V	We should agree before it's too late.	He tried to argue but failed.	0.077
+enjoy	entertain	V	It's important to enjoy carefully.	She will entertain tomorrow.	0.592
+destroy	make	V	He tried to destroy but failed.	We should make before it's too late.	0.16
+save	protect	V	It's important to save carefully.	They decided to protect early in the morning.	0.658
+give	lend	V	She will give tomorrow.	We should lend before it's too late.	0.722
+understand	know	V	It's important to understand carefully.	He tried to know but failed.	0.747
+take	receive	V	They decided to take early in the morning.	He tried to receive but failed.	0.508
+accept	acknowledge	V	We should accept before it's too late.	She will acknowledge tomorrow.	0.688
+decide	choose	V	She will decide tomorrow.	They decided to choose early in the morning.	0.8869999999999999
+accept	believe	V	It's important to accept carefully.	She will believe tomorrow.	0.675
+keep	possess	V	We should keep before it's too late.	It's important to possess carefully.	0.827
+roam	wander	V	He tried to roam but failed.	We should wander before it's too late.	0.883
+succeed	fail	V	She will succeed tomorrow.	She will fail tomorrow.	0.08299999999999999
+spend	save	V	It's important to spend carefully.	We should save before it's too late.	0.05500000000000001
+leave	go	V	We should leave before it's too late.	She will go tomorrow.	0.763
+come	attend	V	They decided to come early in the morning.	It's important to attend carefully.	0.8099999999999999
+know	believe	V	They decided to know early in the morning.	It's important to believe carefully.	0.55
+gather	meet	V	We should gather before it's too late.	It's important to meet carefully.	0.73
+make	earn	V	They decided to make early in the morning.	It's important to earn carefully.	0.762
+forget	ignore	V	It's important to forget carefully.	We should ignore before it's too late.	0.307
+multiply	add	V	He tried to multiply but failed.	They decided to add early in the morning.	0.27
+shrink	grow	V	She will shrink tomorrow.	She will grow tomorrow.	0.023
+arrive	leave	V	It's important to arrive carefully.	We should leave before it's too late.	0.133
+succeed	try	V	She will succeed tomorrow.	They decided to try early in the morning.	0.398
+accept	deny	V	He tried to accept but failed.	She will deny tomorrow.	0.175
+arrive	come	V	They decided to arrive early in the morning.	We should come before it's too late.	0.705
+agree	differ	V	She will agree tomorrow.	It's important to differ carefully.	0.10500000000000001
+send	receive	V	It's important to send carefully.	It's important to receive carefully.	0.10800000000000001
+win	dominate	V	We should win before it's too late.	He tried to dominate but failed.	0.568
+add	divide	V	It's important to add carefully.	We should divide before it's too late.	0.22999999999999998
+kill	choke	V	We should kill before it's too late.	She will choke tomorrow.	0.492
+acquire	get	V	He tried to acquire but failed.	She will get tomorrow.	0.882
+participate	join	V	He tried to participate but failed.	We should join before it's too late.	0.77
+leave	remain	V	She will leave tomorrow.	They decided to remain early in the morning.	0.253
+go	enter	V	They decided to go early in the morning.	She will enter tomorrow.	0.4
+take	carry	V	It's important to take carefully.	She will carry tomorrow.	0.523
+forget	learn	V	We should forget before it's too late.	We should learn before it's too late.	0.118
+appoint	elect	V	She will appoint tomorrow.	It's important to elect carefully.	0.817
+engage	marry	V	We should engage before it's too late.	It's important to marry carefully.	0.5429999999999999
+ask	pray	V	She will ask tomorrow.	It's important to pray carefully.	0.372
+go	send	V	It's important to go carefully.	We should send before it's too late.	0.375
+take	deliver	V	They decided to take early in the morning.	It's important to deliver carefully.	0.437
+speak	hear	V	He tried to speak but failed.	She will hear tomorrow.	0.302
+analyze	evaluate	V	It's important to analyze carefully.	They decided to evaluate early in the morning.	0.8029999999999999
+argue	rationalize	V	They decided to argue early in the morning.	She will rationalize tomorrow.	0.42000000000000004
+lose	keep	V	He tried to lose but failed.	It's important to keep carefully.	0.10500000000000001
+compare	analyze	V	It's important to compare carefully.	They decided to analyze early in the morning.	0.8099999999999999
+disorganize	organize	V	She will disorganize tomorrow.	It's important to organize carefully.	0.145
+go	allow	V	He tried to go but failed.	He tried to allow but failed.	0.362
+take	possess	V	We should take before it's too late.	She will possess tomorrow.	0.72
+learn	listen	V	We should learn before it's too late.	He tried to listen but failed.	0.388
+destroy	construct	V	He tried to destroy but failed.	We should construct before it's too late.	0.092
+create	build	V	It's important to create carefully.	She will build tomorrow.	0.8480000000000001
+steal	buy	V	She will steal tomorrow.	They decided to buy early in the morning.	0.11299999999999999
+kill	hang	V	We should kill before it's too late.	She will hang tomorrow.	0.445
+forget	know	V	They decided to forget early in the morning.	It's important to know carefully.	0.092
+create	imagine	V	It's important to create carefully.	We should imagine before it's too late.	0.513
+do	happen	V	They decided to do early in the morning.	She will happen tomorrow.	0.42300000000000004
+win	accomplish	V	We should win before it's too late.	We should accomplish before it's too late.	0.7849999999999999
+give	deny	V	It's important to give carefully.	She will deny tomorrow.	0.143
+deserve	earn	V	She will deserve tomorrow.	It's important to earn carefully.	0.58
+get	put	V	She will get tomorrow.	They decided to put early in the morning.	0.198
+locate	find	V	He tried to locate but failed.	They decided to find early in the morning.	0.873
+appear	attend	V	They decided to appear early in the morning.	He tried to attend but failed.	0.628
+know	comprehend	V	It's important to know carefully.	It's important to comprehend carefully.	0.763
+pretend	imagine	V	She will pretend tomorrow.	They decided to imagine early in the morning.	0.8470000000000001
+satisfy	please	V	He tried to satisfy but failed.	They decided to please early in the morning.	0.767
+cherish	keep	V	It's important to cherish carefully.	She will keep tomorrow.	0.485
+argue	differ	V	She will argue tomorrow.	They decided to differ early in the morning.	0.515
+overcome	dominate	V	It's important to overcome carefully.	We should dominate before it's too late.	0.625
+behave	obey	V	She will behave tomorrow.	We should obey before it's too late.	0.73
+cooperate	participate	V	They decided to cooperate early in the morning.	She will participate tomorrow.	0.643
+achieve	try	V	He tried to achieve but failed.	We should try before it's too late.	0.442
+fail	discourage	V	We should fail before it's too late.	They decided to discourage early in the morning.	0.333
+begin	quit	V	It's important to begin carefully.	It's important to quit carefully.	0.128
+say	participate	V	It's important to say carefully.	He tried to participate but failed.	0.382
+come	bring	V	We should come before it's too late.	She will bring tomorrow.	0.242
+declare	announce	V	They decided to declare early in the morning.	He tried to announce but failed.	0.908
+read	comprehend	V	They decided to read early in the morning.	They decided to comprehend early in the morning.	0.47000000000000003
+take	leave	V	She will take tomorrow.	It's important to leave carefully.	0.24700000000000003
+proclaim	announce	V	We should proclaim before it's too late.	We should announce before it's too late.	0.818
+acquire	obtain	V	They decided to acquire early in the morning.	He tried to obtain but failed.	0.857
+conclude	decide	V	It's important to conclude carefully.	It's important to decide carefully.	0.775
+please	plead	V	It's important to please carefully.	She will plead tomorrow.	0.298
+argue	prove	V	It's important to argue carefully.	She will prove tomorrow.	0.483
+ask	plead	V	It's important to ask carefully.	She will plead tomorrow.	0.647
+find	disappear	V	He tried to find but failed.	She will disappear tomorrow.	0.077
+inspect	examine	V	It's important to inspect carefully.	It's important to examine carefully.	0.875
+verify	justify	V	They decided to verify early in the morning.	It's important to justify carefully.	0.40800000000000003
+assume	predict	V	We should assume before it's too late.	We should predict before it's too late.	0.485
+learn	evaluate	V	He tried to learn but failed.	We should evaluate before it's too late.	0.417
+argue	justify	V	She will argue tomorrow.	We should justify before it's too late.	0.5
+make	become	V	He tried to make but failed.	We should become before it's too late.	0.477
+discover	originate	V	They decided to discover early in the morning.	He tried to originate but failed.	0.483
+achieve	succeed	V	She will achieve tomorrow.	They decided to succeed early in the morning.	0.75
+give	put	V	They decided to give early in the morning.	It's important to put carefully.	0.365
+understand	listen	V	She will understand tomorrow.	It's important to listen carefully.	0.46799999999999997
+expand	grow	V	He tried to expand but failed.	She will grow tomorrow.	0.827
+borrow	sell	V	We should borrow before it's too late.	She will sell tomorrow.	0.173
+keep	protect	V	It's important to keep carefully.	It's important to protect carefully.	0.54
+explain	prove	V	They decided to explain early in the morning.	He tried to prove but failed.	0.41
+assume	pretend	V	He tried to assume but failed.	They decided to pretend early in the morning.	0.372
+agree	please	V	We should agree before it's too late.	We should please before it's too late.	0.413
+forgive	forget	V	We should forgive before it's too late.	She will forget tomorrow.	0.392
+clarify	explain	V	They decided to clarify early in the morning.	He tried to explain but failed.	0.833
+understand	forgive	V	It's important to understand carefully.	They decided to forgive early in the morning.	0.487
+remind	forget	V	They decided to remind early in the morning.	We should forget before it's too late.	0.087
+get	remain	V	They decided to get early in the morning.	They decided to remain early in the morning.	0.16
+realize	discover	V	We should realize before it's too late.	They decided to discover early in the morning.	0.747
+require	inquire	V	She will require tomorrow.	They decided to inquire early in the morning.	0.182
+ignore	ask	V	She will ignore tomorrow.	He tried to ask but failed.	0.10700000000000001
+think	inquire	V	We should think before it's too late.	She will inquire tomorrow.	0.477
+reject	avoid	V	We should reject before it's too late.	He tried to avoid but failed.	0.47800000000000004
+argue	persuade	V	They decided to argue early in the morning.	She will persuade tomorrow.	0.623
+pursue	persuade	V	They decided to pursue early in the morning.	They decided to persuade early in the morning.	0.317
+accept	forgive	V	We should accept before it's too late.	It's important to forgive carefully.	0.373
+do	quit	V	They decided to do early in the morning.	It's important to quit carefully.	0.11699999999999999
+investigate	examine	V	We should investigate before it's too late.	It's important to examine carefully.	0.8099999999999999
+discuss	explain	V	It's important to discuss carefully.	She will explain tomorrow.	0.667
+owe	lend	V	He tried to owe but failed.	She will lend tomorrow.	0.23199999999999998
+explore	discover	V	It's important to explore carefully.	She will discover tomorrow.	0.8480000000000001
+complain	argue	V	We should complain before it's too late.	He tried to argue but failed.	0.48
+withdraw	reject	V	It's important to withdraw carefully.	They decided to reject early in the morning.	0.638
+keep	borrow	V	They decided to keep early in the morning.	We should borrow before it's too late.	0.225
+beg	ask	V	He tried to beg but failed.	She will ask tomorrow.	0.6
+arrange	organize	V	He tried to arrange but failed.	They decided to organize early in the morning.	0.827
+reduce	shrink	V	She will reduce tomorrow.	She will shrink tomorrow.	0.8019999999999999
+speak	acknowledge	V	We should speak before it's too late.	It's important to acknowledge carefully.	0.46699999999999997
+give	borrow	V	They decided to give early in the morning.	She will borrow tomorrow.	0.22200000000000003
+kill	defend	V	She will kill tomorrow.	He tried to defend but failed.	0.263
+disappear	shrink	V	They decided to disappear early in the morning.	He tried to shrink but failed.	0.58
+deliver	carry	V	He tried to deliver but failed.	It's important to carry carefully.	0.388
+breathe	choke	V	She will breathe tomorrow.	We should choke before it's too late.	0.137
+acknowledge	notify	V	He tried to acknowledge but failed.	It's important to notify carefully.	0.53
+become	seem	V	She will become tomorrow.	He tried to seem but failed.	0.263
+pretend	seem	V	She will pretend tomorrow.	They decided to seem early in the morning.	0.46799999999999997
+accomplish	become	V	They decided to accomplish early in the morning.	We should become before it's too late.	0.4
+contemplate	think	V	She will contemplate tomorrow.	He tried to think but failed.	0.882
+determine	predict	V	They decided to determine early in the morning.	He tried to predict but failed.	0.58
+please	entertain	V	He tried to please but failed.	We should entertain before it's too late.	0.5
+remain	retain	V	It's important to remain carefully.	He tried to retain but failed.	0.575
+pretend	portray	V	We should pretend before it's too late.	It's important to portray carefully.	0.7030000000000001
+forget	retain	V	She will forget tomorrow.	She will retain tomorrow.	0.063
+want	choose	V	She will want tomorrow.	It's important to choose carefully.	0.47800000000000004
+lose	get	V	We should lose before it's too late.	They decided to get early in the morning.	0.077
+try	think	V	She will try tomorrow.	He tried to think but failed.	0.262
+become	appear	V	We should become before it's too late.	We should appear before it's too late.	0.477
+leave	ignore	V	She will leave tomorrow.	It's important to ignore carefully.	0.442
+accept	recommend	V	He tried to accept but failed.	It's important to recommend carefully.	0.275
+leave	wander	V	He tried to leave but failed.	We should wander before it's too late.	0.357
+keep	give	V	We should keep before it's too late.	We should give before it's too late.	0.10500000000000001
+give	allow	V	It's important to give carefully.	She will allow tomorrow.	0.515
+bring	send	V	She will bring tomorrow.	She will send tomorrow.	0.29700000000000004
+absorb	learn	V	They decided to absorb early in the morning.	They decided to learn early in the morning.	0.548
+acquire	find	V	She will acquire tomorrow.	They decided to find early in the morning.	0.638
+leave	appear	V	It's important to leave carefully.	She will appear tomorrow.	0.097
+create	destroy	V	They decided to create early in the morning.	They decided to destroy early in the morning.	0.063
+begin	go	V	It's important to begin carefully.	She will go tomorrow.	0.742
+get	buy	V	She will get tomorrow.	He tried to buy but failed.	0.508
+collect	save	V	They decided to collect early in the morning.	It's important to save carefully.	0.667
+replace	restore	V	She will replace tomorrow.	It's important to restore carefully.	0.5730000000000001
+join	add	V	They decided to join early in the morning.	She will add tomorrow.	0.8099999999999999
+join	marry	V	We should join before it's too late.	They decided to marry early in the morning.	0.5349999999999999
+accept	deliver	V	They decided to accept early in the morning.	It's important to deliver carefully.	0.158
+attach	join	V	It's important to attach carefully.	She will join tomorrow.	0.775
+put	hang	V	It's important to put carefully.	She will hang tomorrow.	0.3
+go	sell	V	We should go before it's too late.	She will sell tomorrow.	0.097
+communicate	pray	V	They decided to communicate early in the morning.	They decided to pray early in the morning.	0.355
+give	steal	V	It's important to give carefully.	They decided to steal early in the morning.	0.05
+add	build	V	He tried to add but failed.	He tried to build but failed.	0.492
+bring	restore	V	She will bring tomorrow.	She will restore tomorrow.	0.262
+comprehend	satisfy	V	He tried to comprehend but failed.	We should satisfy before it's too late.	0.255
+portray	decide	V	He tried to portray but failed.	He tried to decide but failed.	0.118
+organize	become	V	They decided to organize early in the morning.	She will become tomorrow.	0.177
+give	know	V	It's important to give carefully.	It's important to know carefully.	0.088
+say	verify	V	We should say before it's too late.	It's important to verify carefully.	0.49000000000000005
+cooperate	join	V	It's important to cooperate carefully.	He tried to join but failed.	0.518
+arrange	require	V	It's important to arrange carefully.	We should require before it's too late.	0.098
+borrow	want	V	They decided to borrow early in the morning.	It's important to want carefully.	0.177
+investigate	pursue	V	He tried to investigate but failed.	He tried to pursue but failed.	0.7150000000000001
+ignore	explore	V	It's important to ignore carefully.	We should explore before it's too late.	0.04
+bring	complain	V	We should bring before it's too late.	It's important to complain carefully.	0.098
+enter	owe	V	It's important to enter carefully.	We should owe before it's too late.	0.068
+portray	notify	V	She will portray tomorrow.	They decided to notify early in the morning.	0.078
+remind	sell	V	He tried to remind but failed.	It's important to sell carefully.	0.04
+absorb	possess	V	They decided to absorb early in the morning.	He tried to possess but failed.	0.5
+join	acquire	V	She will join tomorrow.	We should acquire before it's too late.	0.28500000000000003
+send	attend	V	They decided to send early in the morning.	It's important to attend carefully.	0.16699999999999998
+gather	attend	V	They decided to gather early in the morning.	We should attend before it's too late.	0.48
+absorb	withdraw	V	She will absorb tomorrow.	We should withdraw before it's too late.	0.29700000000000004
+attend	arrive	V	It's important to attend carefully.	He tried to arrive but failed.	0.608
