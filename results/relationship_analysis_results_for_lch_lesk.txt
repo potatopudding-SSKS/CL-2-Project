@@ -1,13 +1,3 @@
-/home/yash-more/Downloads/21/cl2/project/CL-2-Project/tests/relationship-analysis.py:193: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
-  spearman, _ = spearmanr(rel_df[valid_rel][human_col], rel_df[valid_rel]['prediction'])
-/home/yash-more/Downloads/21/cl2/project/CL-2-Project/tests/relationship-analysis.py:194: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
-  pearson, _ = pearsonr(rel_df[valid_rel][human_col], rel_df[valid_rel]['prediction'])
-/home/yash-more/Downloads/21/cl2/project/CL-2-Project/tests/relationship-analysis.py:193: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
-  spearman, _ = spearmanr(rel_df[valid_rel][human_col], rel_df[valid_rel]['prediction'])
-/home/yash-more/Downloads/21/cl2/project/CL-2-Project/tests/relationship-analysis.py:194: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
-  pearson, _ = pearsonr(rel_df[valid_rel][human_col], rel_df[valid_rel]['prediction'])
-Loading and categorizing datasets...
-
 Relationship distribution in SimLex-999:
 relationship
 functional          447
