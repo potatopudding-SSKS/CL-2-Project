@@ -1,0 +1,39 @@
+================================================================================
+SHORTEST PATH SIMILARITY - EVALUATION RESULTS
+================================================================================
+
+=== SimLex-999 [All] ===
+Pearson:  0.4736
+Spearman: 0.4561
+Coverage: 1.000
+Top error: stupid-dumb human=9.58 predicted=0.00 Δ=-9.58
+
+=== SimLex-999 [Nouns] ===
+Pearson:  0.5211
+Spearman: 0.5500
+Coverage: 1.000
+Top error: quick-rapid human=9.70 predicted=0.12 Δ=-9.57
+
+=== SimLex-999 [Verbs] ===
+Pearson:  0.4849
+Spearman: 0.4190
+Coverage: 1.000
+Top error: task-job human=8.87 predicted=0.00 Δ=-8.87
+
+=== WordSim-353 [All] ===
+Pearson:  0.5484
+Spearman: 0.3965
+Coverage: 1.000
+Top error: tiger-tiger human=10.00 predicted=1.00 Δ=-9.00
+
+=== WordSim-353 [Nouns] ===
+Pearson:  0.5632
+Spearman: 0.4212
+Coverage: 1.000
+Top error: tiger-tiger human=10.00 predicted=1.00 Δ=-9.00
+
+=== WordSim-353 [Verbs] ===
+Pearson:  0.0886
+Spearman: 0.0088
+Coverage: 1.000
+Top error: coast-shore human=8.28 predicted=0.00 Δ=-8.28

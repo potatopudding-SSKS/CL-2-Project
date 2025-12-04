@@ -1,0 +1,39 @@
+================================================================================
+WU-PALMER (WUP) SIMILARITY - EVALUATION RESULTS
+================================================================================
+
+=== SimLex-999 [All] ===
+Pearson:  0.4327
+Spearman: 0.4389
+Coverage: 1.000
+Top error: quick-rapid human=9.70 predicted=0.50 Δ=-9.20
+
+=== SimLex-999 [Nouns] ===
+Pearson:  0.5039
+Spearman: 0.5245
+Coverage: 1.000
+Top error: quick-rapid human=9.70 predicted=0.46 Δ=-9.24
+
+=== SimLex-999 [Verbs] ===
+Pearson:  0.4312
+Spearman: 0.3708
+Coverage: 1.000
+Top error: vanish-disappear human=9.80 predicted=1.00 Δ=-8.80
+
+=== WordSim-353 [All] ===
+Pearson:  0.4567
+Spearman: 0.4423
+Coverage: 1.000
+Top error: tiger-tiger human=10.00 predicted=1.00 Δ=-9.00
+
+=== WordSim-353 [Nouns] ===
+Pearson:  0.4655
+Spearman: 0.4551
+Coverage: 1.000
+Top error: tiger-tiger human=10.00 predicted=1.00 Δ=-9.00
+
+=== WordSim-353 [Verbs] ===
+Pearson:  0.0919
+Spearman: 0.0638
+Coverage: 1.000
+Top error: fuck-sex human=8.25 predicted=0.20 Δ=-8.05

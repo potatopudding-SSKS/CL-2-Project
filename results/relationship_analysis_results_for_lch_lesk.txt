@@ -33,14 +33,14 @@ Overall Performance:
   Pearson r:  0.4399
   Coverage:   98.30% (982/999 pairs)
 
-Relationship Type    N        Coverage     Spearman ρ   Pearson r   
+Relationship Type    N        Coverage     Spearman ρ   Pearson r
 --------------------------------------------------------------------------------
 antonym              28        100.0%       0.3159        0.3687
 co-hyponym           107       100.0%      -0.1199       -0.1031
 functional           447        98.0%       0.1231        0.1397
 hypernym-hyponym     190       100.0%       0.1698        0.1962
 meronym-holonym      10        100.0%       0.2970        0.2414
-synonym              62        100.0%          nan           nan
+synonym              62        100.0%     constant      constant
 unrelated            155        94.8%       0.5232        0.5332
 
 ================================================================================
@@ -52,14 +52,14 @@ Overall Performance:
   Pearson r:  0.5781
   Coverage:   92.35% (326/353 pairs)
 
-Relationship Type    N        Coverage     Spearman ρ   Pearson r   
+Relationship Type    N        Coverage     Spearman ρ   Pearson r
 --------------------------------------------------------------------------------
-antonym              1        Too few      N/A          N/A         
+antonym              1        Too few      N/A          N/A
 co-hyponym           20        100.0%      -0.1603       -0.3060
 functional           163        96.3%       0.2788        0.3674
 hypernym-hyponym     59         98.3%       0.6337        0.5660
 meronym-holonym      3         100.0%       1.0000        0.7823
-synonym              9         100.0%          nan           nan
+synonym              9         100.0%     constant      constant
 unrelated            98         79.6%       0.2358        0.3396
 
 ================================================================================
@@ -75,7 +75,7 @@ Overall Performance:
   Pearson r:  0.5821
   Coverage:   81.08% (810/999 pairs)
 
-Relationship Type    N        Coverage     Spearman ρ   Pearson r   
+Relationship Type    N        Coverage     Spearman ρ   Pearson r
 --------------------------------------------------------------------------------
 antonym              28         50.0%       0.1419        0.0680
 co-hyponym           107       100.0%       0.1659        0.1733
@@ -94,15 +94,99 @@ Overall Performance:
   Pearson r:  0.5201
   Coverage:   98.58% (348/353 pairs)
 
-Relationship Type    N        Coverage     Spearman ρ   Pearson r   
+Relationship Type    N        Coverage     Spearman ρ   Pearson r
 --------------------------------------------------------------------------------
-antonym              1        Too few      N/A          N/A         
-co-hyponym           20        100.0%          nan           nan
+antonym              1        Too few      N/A          N/A
+co-hyponym           20        100.0%     constant      constant
 functional           163       100.0%       0.1753        0.1900
 hypernym-hyponym     59        100.0%       0.6187        0.6168
 meronym-holonym      3         100.0%      -0.5000        0.1071
-synonym              9         100.0%          nan           nan
+synonym              9         100.0%     constant      constant
 unrelated            98         94.9%      -0.1129       -0.0803
+
+================================================================================
+EVALUATING SHORTEST PATH ALGORITHM
+================================================================================
+
+================================================================================
+Shortest Path - SimLex-999
+================================================================================
+
+Overall Performance:
+  Spearman ρ: 0.4564
+  Pearson r:  0.4791
+  Coverage:   100.00% (999/999 pairs)
+
+Relationship Type    N        Coverage     Spearman ρ   Pearson r
+--------------------------------------------------------------------------------
+antonym              28        100.0%       0.4791        0.4196
+co-hyponym           107       100.0%     constant      constant
+functional           447       100.0%       0.2142        0.1441
+hypernym-hyponym     190       100.0%       0.2143        0.1910
+meronym-holonym      10        100.0%      -0.2630       -0.3447
+synonym              62        100.0%     constant      constant
+unrelated            155       100.0%      -0.3109       -0.3738
+
+================================================================================
+Shortest Path - WordSim-353
+================================================================================
+
+Overall Performance:
+  Spearman ρ: 0.4032
+  Pearson r:  0.5523
+  Coverage:   100.00% (353/353 pairs)
+
+Relationship Type    N        Coverage     Spearman ρ   Pearson r
+--------------------------------------------------------------------------------
+antonym              1        Too few      N/A          N/A
+co-hyponym           20        100.0%     constant      constant
+functional           163       100.0%       0.1753        0.1862
+hypernym-hyponym     59        100.0%       0.6187        0.6211
+meronym-holonym      3         100.0%      -0.5000        0.1501
+synonym              9         100.0%     constant      constant
+unrelated            98        100.0%      -0.1605       -0.1573
+
+================================================================================
+EVALUATING WU-PALMER ALGORITHM
+================================================================================
+
+================================================================================
+Wu-Palmer - SimLex-999
+================================================================================
+
+Overall Performance:
+  Spearman ρ: 0.4408
+  Pearson r:  0.4348
+  Coverage:   100.00% (999/999 pairs)
+
+Relationship Type    N        Coverage     Spearman ρ   Pearson r
+--------------------------------------------------------------------------------
+antonym              28        100.0%       0.3680        0.2959
+co-hyponym           107       100.0%       0.1469        0.2007
+functional           447       100.0%       0.1272        0.1169
+hypernym-hyponym     190       100.0%       0.0562        0.0843
+meronym-holonym      10        100.0%      -0.5732       -0.7103
+synonym              62        100.0%      -0.1395       -0.1107
+unrelated            155       100.0%       0.3702        0.3336
+
+================================================================================
+Wu-Palmer - WordSim-353
+================================================================================
+
+Overall Performance:
+  Spearman ρ: 0.4363
+  Pearson r:  0.4399
+  Coverage:   100.00% (353/353 pairs)
+
+Relationship Type    N        Coverage     Spearman ρ   Pearson r
+--------------------------------------------------------------------------------
+antonym              1        Too few      N/A          N/A
+co-hyponym           20        100.0%       0.2045        0.0918
+functional           163       100.0%       0.2390        0.2386
+hypernym-hyponym     59        100.0%       0.6837        0.6507
+meronym-holonym      3         100.0%      -0.5000        0.0691
+synonym              9         100.0%     constant      constant
+unrelated            98        100.0%      -0.1011       -0.0875
 
 ================================================================================
 EXAMPLE PREDICTIONS BY RELATIONSHIP TYPE
@@ -112,118 +196,238 @@ EXAMPLE PREDICTIONS BY RELATIONSHIP TYPE
 Lesk - synonym
 
 SYNONYM - Examples (worst predictions):
-Word 1          Word 2          Human    Predicted  Error   
+Word 1          Word 2          Human    Predicted  Error
 ----------------------------------------------------------------------
-vanish          disappear       9.80     3.1781     6.6219  
-occur           happen          9.32     3.1781     6.1419  
-creator         maker           9.62     3.6376     5.9824  
-declare         announce        9.08     3.1781     5.9019  
-area            region          9.47     3.6376     5.8324  
+vanish          disappear       9.80     1.0000     8.8000
+creator         maker           9.62     1.0000     8.6200
+large           big             9.55     1.0000     8.5500
+area            region          9.47     1.0000     8.4700
+student         pupil           9.35     1.0000     8.3500
 
 ================================================================================
 LCH - synonym
 
 SYNONYM - Examples (worst predictions):
-Word 1          Word 2          Human    Predicted  Error   
+Word 1          Word 2          Human    Predicted  Error
 ----------------------------------------------------------------------
 vanish          disappear       9.80     3.1781     6.6219  
-occur           happen          9.32     3.1781     6.1419  
-creator         maker           9.62     3.6376     5.9824  
-declare         announce        9.08     3.1781     5.9019  
-area            region          9.47     3.6376     5.8324  
+occur           happen          9.32     3.1781     6.1419
+creator         maker           9.62     3.6376     5.9824
+declare         announce        9.08     3.1781     5.9019
+area            region          9.47     3.6376     5.8324
+
+================================================================================
+Shortest Path - synonym
+
+SYNONYM - Examples (worst predictions):
+Word 1          Word 2          Human    Predicted  Error
+----------------------------------------------------------------------
+vanish          disappear       9.80     1.0000     8.8000
+creator         maker           9.62     1.0000     8.6200
+large           big             9.55     1.0000     8.5500
+area            region          9.47     1.0000     8.4700
+student         pupil           9.35     1.0000     8.3500
+
+================================================================================
+Wu-Palmer - synonym
+
+SYNONYM - Examples (worst predictions):
+Word 1          Word 2          Human    Predicted  Error
+----------------------------------------------------------------------
+vanish          disappear       9.80     1.0000     8.8000
+creator         maker           9.62     1.0000     8.6200
+large           big             9.55     1.0000     8.5500
+area            region          9.47     1.0000     8.4700
+student         pupil           9.35     1.0000     8.3500
 
 ================================================================================
 Lesk - hypernym-hyponym
 
 HYPERNYM-HYPONYM - Examples (worst predictions):
-Word 1          Word 2          Human    Predicted  Error   
+Word 1          Word 2          Human    Predicted  Error
 ----------------------------------------------------------------------
-pact            agreement       9.02     2.9444     6.0756  
-corporation     business        9.02     2.9444     6.0756  
-inform          notify          9.25     3.1781     6.0719  
-protect         defend          9.13     3.1781     5.9519  
-plead           beg             9.08     3.1781     5.9019  
+cow             cattle          9.52     0.3152     9.2048
+hallway         corridor        9.28     0.4041     8.8759
+pact            agreement       9.02     0.1841     8.8359
+corporation     business        9.02     0.2326     8.7874
+inform          notify          9.25     0.4804     8.7696
 
 ================================================================================
 LCH - hypernym-hyponym
 
 HYPERNYM-HYPONYM - Examples (worst predictions):
-Word 1          Word 2          Human    Predicted  Error   
+Word 1          Word 2          Human    Predicted  Error
 ----------------------------------------------------------------------
-pact            agreement       9.02     2.9444     6.0756  
-corporation     business        9.02     2.9444     6.0756  
-inform          notify          9.25     3.1781     6.0719  
-protect         defend          9.13     3.1781     5.9519  
-plead           beg             9.08     3.1781     5.9019  
+corporation     business        9.02     2.9444     6.0756
+pact            agreement       9.02     2.9444     6.0756
+inform          notify          9.25     3.1781     6.0719
+protect         defend          9.13     3.1781     5.9519
+plead           beg             9.08     3.1781     5.9019
+
+================================================================================
+Shortest Path - hypernym-hyponym
+
+HYPERNYM-HYPONYM - Examples (worst predictions):
+Word 1          Word 2          Human    Predicted  Error
+----------------------------------------------------------------------
+cow             cattle          9.52     0.5000     9.0200
+hallway         corridor        9.28     0.5000     8.7800
+inform          notify          9.25     0.5000     8.7500
+pact            agreement       9.02     0.3333     8.6867
+corporation     business        9.02     0.3333     8.6867
+
+================================================================================
+Wu-Palmer - hypernym-hyponym
+
+HYPERNYM-HYPONYM - Examples (worst predictions):
+Word 1          Word 2          Human    Predicted  Error
+----------------------------------------------------------------------
+cow             cattle          9.52     0.9714     8.5486
+contemplate     think           8.82     0.4000     8.4200
+inform          notify          9.25     0.8889     8.3611
+hallway         corridor        9.28     0.9474     8.3326
+protect         defend          9.13     0.8571     8.2729
 
 ================================================================================
 Lesk - antonym
 
 ANTONYM - Examples (worst predictions):
-Word 1          Word 2          Human    Predicted  Error   
+Word 1          Word 2          Human    Predicted  Error
 ----------------------------------------------------------------------
-uncle           aunt            5.50     2.2513     3.2487  
-bottom          top             0.70     2.9444     2.2444  
-absence         presence        0.40     2.2513     1.8513  
-wealth          poverty         1.27     2.9444     1.6744  
-accept          reject          0.83     2.4849     1.6549  
+uncle           aunt            5.50     0.5893     4.9107
+employer        employee        3.65     0.0657     3.5843
+woman           man             3.33     0.6149     2.7151
+wife            husband         2.30     0.3212     1.9788
+foot            head            2.30     0.4216     1.8784
 
 ================================================================================
 LCH - antonym
 
 ANTONYM - Examples (worst predictions):
-Word 1          Word 2          Human    Predicted  Error   
+Word 1          Word 2          Human    Predicted  Error
 ----------------------------------------------------------------------
-uncle           aunt            5.50     2.2513     3.2487  
-bottom          top             0.70     2.9444     2.2444  
-absence         presence        0.40     2.2513     1.8513  
-wealth          poverty         1.27     2.9444     1.6744  
-accept          reject          0.83     2.4849     1.6549  
+uncle           aunt            5.50     2.2513     3.2487
+bottom          top             0.70     2.9444     2.2444
+absence         presence        0.40     2.2513     1.8513
+wealth          poverty         1.27     2.9444     1.6744
+accept          reject          0.83     2.4849     1.6549
+
+================================================================================
+Shortest Path - antonym
+
+ANTONYM - Examples (worst predictions):
+Word 1          Word 2          Human    Predicted  Error
+----------------------------------------------------------------------
+uncle           aunt            5.50     0.2000     5.3000
+employer        employee        3.65     0.2000     3.4500
+woman           man             3.33     0.3333     2.9967
+sunset          sunrise         2.47     0.3333     2.1367
+foot            head            2.30     0.3333     1.9667
+
+================================================================================
+Wu-Palmer - antonym
+
+ANTONYM - Examples (worst predictions):
+Word 1          Word 2          Human    Predicted  Error
+----------------------------------------------------------------------
+uncle           aunt            5.50     0.6000     4.9000
+employer        employee        3.65     0.6667     2.9833
+woman           man             3.33     0.7059     2.6241
+wife            husband         2.30     0.6000     1.7000
+go              come            2.42     0.8000     1.6200
 
 ================================================================================
 Lesk - co-hyponym
 
 CO-HYPONYM - Examples (worst predictions):
-Word 1          Word 2          Human    Predicted  Error   
+Word 1          Word 2          Human    Predicted  Error
 ----------------------------------------------------------------------
-heroine         hero            8.78     2.9444     5.8356  
-buddy           companion       8.65     2.9444     5.7056  
-come            attend          8.10     2.4849     5.6151  
-crib            cradle          8.55     2.9444     5.6056  
-conclude        decide          7.75     2.4849     5.2651  
+buddy           companion       8.65     0.4183     8.2317
+heroine         hero            8.78     0.5721     8.2079
+mood            emotion         8.12     0.1378     7.9822
+crib            cradle          8.55     0.5715     7.9785
+come            attend          8.10     0.3181     7.7819
 
 ================================================================================
 LCH - co-hyponym
 
 CO-HYPONYM - Examples (worst predictions):
-Word 1          Word 2          Human    Predicted  Error   
+Word 1          Word 2          Human    Predicted  Error
 ----------------------------------------------------------------------
-heroine         hero            8.78     2.9444     5.8356  
-buddy           companion       8.65     2.9444     5.7056  
-come            attend          8.10     2.4849     5.6151  
-crib            cradle          8.55     2.9444     5.6056  
-conclude        decide          7.75     2.4849     5.2651  
+heroine         hero            8.78     2.9444     5.8356
+buddy           companion       8.65     2.9444     5.7056
+come            attend          8.10     2.4849     5.6151
+crib            cradle          8.55     2.9444     5.6056
+conclude        decide          7.75     2.4849     5.2651
+
+================================================================================
+Shortest Path - co-hyponym
+
+CO-HYPONYM - Examples (worst predictions):
+Word 1          Word 2          Human    Predicted  Error
+----------------------------------------------------------------------
+heroine         hero            8.78     0.3333     8.4467
+buddy           companion       8.65     0.3333     8.3167
+crib            cradle          8.55     0.3333     8.2167
+mood            emotion         8.12     0.3333     7.7867
+come            attend          8.10     0.3333     7.7667
+
+================================================================================
+Wu-Palmer - co-hyponym
+
+CO-HYPONYM - Examples (worst predictions):
+Word 1          Word 2          Human    Predicted  Error
+----------------------------------------------------------------------
+buddy           companion       8.65     0.6667     7.9833
+heroine         hero            8.78     0.9231     7.8569
+come            attend          8.10     0.4000     7.7000
+crib            cradle          8.55     0.9000     7.6500
+mood            emotion         8.12     0.8333     7.2867
 
 ================================================================================
 Lesk - functional
 
 FUNCTIONAL - Examples (worst predictions):
-Word 1          Word 2          Human    Predicted  Error   
+Word 1          Word 2          Human    Predicted  Error
 ----------------------------------------------------------------------
-pretend         imagine         8.47     1.5686     6.9014  
-attention       awareness       8.73     2.0281     6.7019  
-cop             sheriff         9.05     2.5390     6.5110  
-business        company         9.02     2.5390     6.4810  
-log             timber          8.05     1.6917     6.3583  
+business        company         9.02     0.1846     8.8354
+attention       awareness       8.73     0.0615     8.6685
+champion        winner          8.73     0.2910     8.4390
+pretend         imagine         8.47     0.0994     8.3706
+explore         discover        8.48     0.1325     8.3475
 
 ================================================================================
 LCH - functional
 
 FUNCTIONAL - Examples (worst predictions):
-Word 1          Word 2          Human    Predicted  Error   
+Word 1          Word 2          Human    Predicted  Error
 ----------------------------------------------------------------------
-pretend         imagine         8.47     1.5686     6.9014  
-attention       awareness       8.73     2.0281     6.7019  
-cop             sheriff         9.05     2.5390     6.5110  
-business        company         9.02     2.5390     6.4810  
-log             timber          8.05     1.6917     6.3583  
+pretend         imagine         8.47     1.5686     6.9014
+attention       awareness       8.73     2.0281     6.7019
+cop             sheriff         9.05     2.5390     6.5110
+business        company         9.02     2.5390     6.4810
+log             timber          8.05     1.6917     6.3583
+
+================================================================================
+Shortest Path - functional
+
+FUNCTIONAL - Examples (worst predictions):
+Word 1          Word 2          Human    Predicted  Error
+----------------------------------------------------------------------
+cop             sheriff         9.05     0.2500     8.8000
+business        company         9.02     0.2500     8.7700
+attention       awareness       8.73     0.1667     8.5633
+explore         discover        8.48     0.0000     8.4800
+champion        winner          8.73     0.2500     8.4800
+
+================================================================================
+Wu-Palmer - functional
+
+FUNCTIONAL - Examples (worst predictions):
+Word 1          Word 2          Human    Predicted  Error
+----------------------------------------------------------------------
+business        company         9.02     0.7692     8.2508
+cop             sheriff         9.05     0.8696     8.1804
+explore         discover        8.48     0.3333     8.1467
+pretend         imagine         8.47     0.3333     8.1367
+attention       awareness       8.73     0.6667     8.0633

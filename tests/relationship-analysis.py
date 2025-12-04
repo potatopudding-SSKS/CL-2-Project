@@ -1,17 +1,23 @@
 """
 RQ2: Relationship Type Analysis
 Categorize word pairs by semantic relationship type and analyze 
-which types are handled well by each algorithm (Lesk and LCH).
+which types are handled well by each algorithm (Lesk, LCH, Wu-Palmer, and Shortest Path).
 """
 
 import pandas as pd
 import numpy as np
 from scipy.stats import spearmanr, pearsonr
 import sys
-sys.path.append('/home/yash-more/Downloads/21/cl2/project/CL-2-Project')
+import os
+import warnings
+
+# Add parent directory to path for imports
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 from algorithms.lesk import lesk_similarity_max_synsets
 from algorithms.lch import lch_similarity_max_synsets
+from algorithms.shortest import build_shortest_path_similarity
+from algorithms.wup import build_wup_similarity
 from algorithms.utils import convert_pos_tag
 from nltk.corpus import wordnet as wn
 
@@ -97,7 +103,8 @@ def categorize_relationship(word1, word2, pos):
 
 def load_and_categorize_simlex():
     """Load SimLex-999 and categorize relationships."""
-    df = pd.read_csv('/home/yash-more/Downloads/21/cl2/project/CL-2-Project/datasets/SimLex-999.csv')
+    datasets_path = os.path.join(os.path.dirname(__file__), '..', 'datasets', 'SimLex-999.csv')
+    df = pd.read_csv(datasets_path)
     
     categories = []
     for _, row in df.iterrows():
@@ -113,7 +120,8 @@ def load_and_categorize_simlex():
 
 def load_and_categorize_wordsim():
     """Load WordSim-353 and categorize relationships."""
-    df = pd.read_csv('/home/yash-more/Downloads/21/cl2/project/CL-2-Project/datasets/wordsim353crowd.csv')
+    datasets_path = os.path.join(os.path.dirname(__file__), '..', 'datasets', 'wordsim353crowd.csv')
+    df = pd.read_csv(datasets_path)
     
     categories = []
     for _, row in df.iterrows():
@@ -190,19 +198,38 @@ def evaluate_by_relationship(df, algorithm_func, algorithm_name, dataset_name, h
         
         if valid_rel.sum() >= 3:  # Need at least 3 pairs for correlation
             try:
-                spearman, _ = spearmanr(rel_df[valid_rel][human_col], rel_df[valid_rel]['prediction'])
-                pearson, _ = pearsonr(rel_df[valid_rel][human_col], rel_df[valid_rel]['prediction'])
-                coverage = valid_rel.sum() / len(rel_df) * 100
-                
-                print(f"{rel_type:<20} {len(rel_df):<8} {coverage:>6.1f}%     {spearman:>8.4f}      {pearson:>8.4f}")
-                
-                results[rel_type] = {
-                    'spearman': spearman,
-                    'pearson': pearson,
-                    'coverage': coverage,
-                    'n_pairs': len(rel_df),
-                    'n_valid': valid_rel.sum()
-                }
+                # Check if predictions are constant (would cause correlation warning)
+                predictions = rel_df[valid_rel]['prediction']
+                if predictions.nunique() == 1:
+                    # All predictions are the same - correlation is undefined
+                    coverage = valid_rel.sum() / len(rel_df) * 100
+                    print(f"{rel_type:<20} {len(rel_df):<8} {coverage:>6.1f}%     {'constant':>8}      {'constant':>8}")
+                    results[rel_type] = {
+                        'spearman': np.nan,
+                        'pearson': np.nan,
+                        'coverage': coverage,
+                        'n_pairs': len(rel_df),
+                        'n_valid': valid_rel.sum(),
+                        'note': 'constant predictions'
+                    }
+                else:
+                    # Suppress the ConstantInputWarning if it still occurs
+                    with warnings.catch_warnings():
+                        warnings.filterwarnings('ignore', message='An input array is constant')
+                        spearman, _ = spearmanr(rel_df[valid_rel][human_col], rel_df[valid_rel]['prediction'])
+                        pearson, _ = pearsonr(rel_df[valid_rel][human_col], rel_df[valid_rel]['prediction'])
+                    
+                    coverage = valid_rel.sum() / len(rel_df) * 100
+                    
+                    print(f"{rel_type:<20} {len(rel_df):<8} {coverage:>6.1f}%     {spearman:>8.4f}      {pearson:>8.4f}")
+                    
+                    results[rel_type] = {
+                        'spearman': spearman,
+                        'pearson': pearson,
+                        'coverage': coverage,
+                        'n_pairs': len(rel_df),
+                        'n_valid': valid_rel.sum()
+                    }
             except:
                 print(f"{rel_type:<20} {len(rel_df):<8} {'N/A':<12} {'N/A':<12} {'N/A':<12}")
         else:
@@ -256,11 +283,11 @@ def main():
     print("="*80)
     
     lesk_simlex_results, lesk_simlex_df = evaluate_by_relationship(
-        simlex, lesk_similarity_max_synsets, "Lesk", "SimLex-999"
+        simlex.copy(), lesk_similarity_max_synsets, "Lesk", "SimLex-999"
     )
     
     lesk_wordsim_results, lesk_wordsim_df = evaluate_by_relationship(
-        wordsim, lesk_similarity_max_synsets, "Lesk", "WordSim-353", human_col='Human (Mean)'
+        wordsim.copy(), lesk_similarity_max_synsets, "Lesk", "WordSim-353", human_col='Human (Mean)'
     )
     
     # Evaluate LCH
@@ -269,11 +296,50 @@ def main():
     print("="*80)
     
     lch_simlex_results, lch_simlex_df = evaluate_by_relationship(
-        simlex, lch_similarity_max_synsets, "LCH", "SimLex-999"
+        simlex.copy(), lch_similarity_max_synsets, "LCH", "SimLex-999"
     )
     
     lch_wordsim_results, lch_wordsim_df = evaluate_by_relationship(
-        wordsim, lch_similarity_max_synsets, "LCH", "WordSim-353", human_col='Human (Mean)'
+        wordsim.copy(), lch_similarity_max_synsets, "LCH", "WordSim-353", human_col='Human (Mean)'
+    )
+    
+    # Build similarity functions for algorithms that need it
+    shortest_similarity = build_shortest_path_similarity()
+    wup_similarity = build_wup_similarity()
+    
+    # Wrapper functions to match the expected signature
+    def shortest_wrapper(word1, word2, pos=None):
+        result = shortest_similarity(word1, word2, pos)
+        return result['score'] if result else None
+    
+    def wup_wrapper(word1, word2, pos=None):
+        result = wup_similarity(word1, word2, pos)
+        return result['score'] if result else None
+    
+    # Evaluate Shortest Path
+    print("\n" + "="*80)
+    print("EVALUATING SHORTEST PATH ALGORITHM")
+    print("="*80)
+    
+    shortest_simlex_results, shortest_simlex_df = evaluate_by_relationship(
+        simlex.copy(), shortest_wrapper, "Shortest Path", "SimLex-999"
+    )
+    
+    shortest_wordsim_results, shortest_wordsim_df = evaluate_by_relationship(
+        wordsim.copy(), shortest_wrapper, "Shortest Path", "WordSim-353", human_col='Human (Mean)'
+    )
+    
+    # Evaluate Wu-Palmer
+    print("\n" + "="*80)
+    print("EVALUATING WU-PALMER ALGORITHM")
+    print("="*80)
+    
+    wup_simlex_results, wup_simlex_df = evaluate_by_relationship(
+        simlex.copy(), wup_wrapper, "Wu-Palmer", "SimLex-999"
+    )
+    
+    wup_wordsim_results, wup_wordsim_df = evaluate_by_relationship(
+        wordsim.copy(), wup_wrapper, "Wu-Palmer", "WordSim-353", human_col='Human (Mean)'
     )
     
     # Show examples for key relationship types
@@ -281,15 +347,19 @@ def main():
     print("EXAMPLE PREDICTIONS BY RELATIONSHIP TYPE")
     print("="*80)
     
+    algorithms = [
+        ('Lesk', lesk_simlex_df),
+        ('LCH', lch_simlex_df),
+        ('Shortest Path', shortest_simlex_df),
+        ('Wu-Palmer', wup_simlex_df)
+    ]
+    
     for rel_type in ['synonym', 'hypernym-hyponym', 'antonym', 'co-hyponym', 'functional']:
         if rel_type in simlex['relationship'].values:
-            print(f"\n{'='*80}")
-            print(f"Lesk - {rel_type}")
-            show_examples_by_relationship(lesk_simlex_df, rel_type)
-            
-            print(f"\n{'='*80}")
-            print(f"LCH - {rel_type}")
-            show_examples_by_relationship(lch_simlex_df, rel_type)
+            for algo_name, algo_df in algorithms:
+                print(f"\n{'='*80}")
+                print(f"{algo_name} - {rel_type}")
+                show_examples_by_relationship(algo_df, rel_type)
 
 if __name__ == "__main__":
     main()
