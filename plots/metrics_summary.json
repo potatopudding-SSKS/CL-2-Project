@@ -1,0 +1,46 @@
+{
+  "SimLex-999": {
+    "Lesk": {
+      "Spearman": 0.4511,
+      "Pearson": 0.4399,
+      "Coverage": 98.3
+    },
+    "LCH": {
+      "Spearman": 0.5822,
+      "Pearson": 0.5821,
+      "Coverage": 81.08
+    },
+    "Shortest-Path": {
+      "Spearman": 0.4561,
+      "Pearson": 0.4736,
+      "Coverage": 100.0
+    },
+    "Wu-Palmer": {
+      "Spearman": 0.4389,
+      "Pearson": 0.4327,
+      "Coverage": 100.0
+    }
+  },
+  "WordSim-353": {
+    "Lesk": {
+      "Spearman": 0.5021,
+      "Pearson": 0.5532,
+      "Coverage": 94.9
+    },
+    "LCH": {
+      "Spearman": 0.4124,
+      "Pearson": 0.5125,
+      "Coverage": 99.43
+    },
+    "Shortest-Path": {
+      "Spearman": 0.3965,
+      "Pearson": 0.5484,
+      "Coverage": 100.0
+    },
+    "Wu-Palmer": {
+      "Spearman": 0.4423,
+      "Pearson": 0.4567,
+      "Coverage": 100.0
+    }
+  }
+}
